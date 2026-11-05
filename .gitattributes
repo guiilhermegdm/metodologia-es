@@ -1,0 +1,17 @@
+# Normaliza finais de linha: o repositório guarda LF e cada sistema
+# converte na hora do checkout.
+* text=auto
+
+# Planilhas CSV abrem no Excel com CRLF
+*.csv text eol=crlf
+
+# Scripts e arquivos do Synesis sempre com LF
+*.py   text eol=lf
+*.syn  text eol=lf
+*.synp text eol=lf
+*.synt text eol=lf
+*.syno text eol=lf
+
+# Binários
+*.xlsx binary
+*.pdf  binary

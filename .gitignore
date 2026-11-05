@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LaTeX (caso o artigo seja compilado dentro do repositório)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Arquivos temporários do Excel/LibreOffice ao abrir as planilhas
+~$*.xlsx
+~$*.csv
+.~lock.*#
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
