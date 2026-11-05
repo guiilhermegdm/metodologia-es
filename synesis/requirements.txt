@@ -1,0 +1,3 @@
+# Dependências dos scripts de automação (gerar_projetos.py e relatorio.py)
+synesis
+openpyxl

@@ -43,8 +43,8 @@ Mapeamento sistemático da literatura (tema 6) sobre agentes que processam múlt
 O processo do mapeamento é automatizado com o compilador [Synesis](https://pypi.org/project/synesis/):
 
 ```bash
-pip install synesis openpyxl
 cd synesis
+pip install -r requirements.txt    # synesis + openpyxl
 python scripts/gerar_projetos.py   # deduplica, gera as anotações e compila seleção e extração
 python scripts/relatorio.py        # funil da seleção e frequências por faceta (saida/relatorio.md)
 ```

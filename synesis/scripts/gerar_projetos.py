@@ -11,7 +11,7 @@ Fluxo automatizado:
   6. Compila os dois projetos com o compilador Synesis (CSV + Excel + JSON)
 
 Uso (a partir da pasta synesis/):
-    pip install synesis
+    pip install -r requirements.txt
     python scripts/gerar_projetos.py
     python scripts/relatorio.py
 """

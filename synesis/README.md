@@ -26,8 +26,8 @@ Ao compilar, ele confere se tudo está consistente e exporta tabelas em CSV, Exc
 ## Como rodar
 
 ```bash
-pip install synesis openpyxl
 cd synesis
+pip install -r requirements.txt    # synesis + openpyxl
 python scripts/gerar_projetos.py   # gera as anotações a partir dos dados e compila os dois projetos
 python scripts/relatorio.py        # gera saida/relatorio.md com o funil e as frequências por faceta
 ```
@@ -79,5 +79,6 @@ synesis/
 ├── scripts/
 │   ├── gerar_projetos.py   ← automação: deduplicação, geração e compilação
 │   └── relatorio.py        ← relatório do mapeamento a partir das saídas do Synesis
+├── requirements.txt        ← dependências (synesis, openpyxl)
 └── saida/                  ← artefatos compilados
 ```
