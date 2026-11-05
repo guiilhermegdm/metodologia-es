@@ -28,6 +28,16 @@ Mapear o uso de agentes capazes de processar múltiplas modalidades (texto, voz,
 
 **Questões demográficas:** ano de publicação, população atendida e tipo de agente.
 
+### 2.1 Como a QP2 é respondida neste mapeamento
+
+A QP2 foi definida no escopo do tema e é mantida com a redação original. Um mapeamento sistemático, porém, classifica e quantifica a literatura e não compara a eficácia das intervenções (Petersen et al., 2015). Por isso, "demonstraram ser mais eficazes" é operacionalizado assim:
+
+- **QP2.1** registra quais estratégias de adaptação cada estudo aplica;
+- **QP2.2** registra o desfecho afetivo relatado pelos próprios autores (redução, aumento, sem diferença, não medido);
+- **QP2.3** classifica o rigor da avaliação (prova de conceito, laboratório, experimento controlado, campo).
+
+A resposta à QP2 é o cruzamento dessas três facetas: quais estratégias aparecem associadas a desfechos favoráveis **e** em avaliações mais rigorosas. Não é feita meta-análise nem ranking de eficácia. Uma comparação de efeito exigiria uma revisão sistemática, indicada como trabalho futuro.
+
 ## 3. Estratégia de busca
 
 ### 3.1 String genérica
@@ -98,6 +108,17 @@ As quatro substrings da busca acadêmica cobrem estas subáreas:
 
 **Pendente:** triagem dos 378 registros das bases indexadas que restaram após a deduplicação automática (5 duplicatas), coletados em 05/11/2026. Esta etapa é registrada em `estudos-primarios-coletados/triagem-bases.csv` e automatizada com Synesis (ver `synesis/README.md`).
 
+### 5.1 Procedimento para a triagem pendente e concordância entre revisores
+
+1. **Divisão:** os 378 registros pendentes são divididos entre os integrantes do grupo por faixas de linhas da planilha `triagem-bases.csv`.
+2. **Triagem por título e resumo:** cada integrante aplica CI1–CI3 e CE1–CE4 às suas linhas. Na dúvida, o registro segue para leitura do texto completo (não é excluído).
+3. **Segundo revisor:** uma amostra aleatória de pelo menos 20% das decisões de cada integrante é avaliada às cegas por outro integrante. O sorteio e o cálculo são feitos com `synesis/scripts/concordancia.py`.
+4. **Concordância:** calcula-se o kappa de Cohen. A meta é κ ≥ 0,61 (concordância substancial, segundo Landis e Koch, 1977). Abaixo disso, os critérios são discutidos e a amostra é revisada.
+5. **Divergências:** são resolvidas por consenso e a decisão final é registrada na planilha com uma justificativa curta.
+6. **Incluídos novos:** são classificados em `dados/extracao-estudos-incluidos.csv` com o mesmo esquema da Seção 6, e os números do funil são atualizados no README e no artigo.
+
+O mesmo procedimento de concordância pode ser aplicado retroativamente a uma amostra dos 46 candidatos já avaliados (`selecao-estudos.csv`), o que reduz a ameaça de viés de seleção descrita na Seção 7.
+
 ## 6. Esquema de classificação (extração de dados)
 
 O esquema foi construído por *keywording* dos resumos.
@@ -120,5 +141,13 @@ Os dados extraídos estão em `dados/extracao-estudos-incluidos.csv`.
 
 - **Construto:** os termos "engajamento" e "agente" são usados de forma heterogênea na literatura. Por isso, o protocolo adota uma definição operacional de agente (CI1).
 - **Completude:** a seleção relatada no artigo partiu de busca acadêmica e *snowballing*. A busca nas interfaces das bases (IEEE Xplore e ACM DL) foi executada depois e ainda precisa ser triada. Outras bases, como Scopus e Web of Science, não foram consultadas.
-- **Seleção e extração:** campos ausentes nos estudos foram codificados como "não informado". Três estudos incluídos são *preprints*.
+- **Seleção e extração:** campos ausentes nos estudos foram codificados como "não informado". Três estudos incluídos são *preprints*. A seleção dos 46 candidatos não teve verificação independente por um segundo revisor. A Seção 5.1 define o procedimento de dupla revisão com kappa de Cohen para mitigar esse risco.
 - **Conclusão:** as sínteses da QP2 são descritivas, e não meta-analíticas.
+
+## 8. Referências do método
+
+- COHEN, J. A coefficient of agreement for nominal scales. *Educational and Psychological Measurement*, v. 20, n. 1, p. 37–46, 1960.
+- LANDIS, J. R.; KOCH, G. G. The measurement of observer agreement for categorical data. *Biometrics*, v. 33, n. 1, p. 159–174, 1977.
+- PETERSEN, K. et al. Systematic mapping studies in software engineering. In: *EASE*, 2008.
+- PETERSEN, K.; VAKKALANKA, S.; KUZNIARZ, L. Guidelines for conducting systematic mapping studies in software engineering: an update. *Information and Software Technology*, v. 64, p. 1–18, 2015.
+- WOHLIN, C. Guidelines for snowballing in systematic literature studies and a replication in software engineering. In: *EASE*, 2014.
