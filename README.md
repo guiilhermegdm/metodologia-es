@@ -10,6 +10,23 @@ Mapeamento sistemático da literatura (tema 6) sobre agentes que processam múlt
 - **QP1:** Quais mecanismos de inferência afetiva e percepção multimodal são integrados aos agentes para monitorar o engajamento emocional do estudante em tempo real?
 - **QP2:** Quais estratégias de personalização do conteúdo demonstraram ser mais eficazes para reduzir a ansiedade de aprendizagem em perfis neurodivergentes?
 
+Como este é um mapeamento, e não uma revisão com meta-análise, a QP2 é respondida de forma descritiva: estratégias aplicadas × desfechos relatados × rigor da avaliação. A operacionalização está na [Seção 2.1 do protocolo](protocolo/PROTOCOLO.md#21-como-a-qp2-é-respondida-neste-mapeamento).
+
+## Situação da entrega
+
+O plano de ensino pede que o grupo **planeje, execute e documente** um estudo secundário sistemático. Situação de cada etapa:
+
+| Etapa | Situação | Onde está |
+|---|---|---|
+| Planejamento (questões, string, fontes, critérios, esquema de classificação) | Concluído | [`protocolo/PROTOCOLO.md`](protocolo/PROTOCOLO.md) |
+| Busca nas bases indexadas (IEEE Xplore e ACM DL) | Concluída em 05/11/2026 (383 registros) | `estudos-primarios-coletados/bases-indexadas/` |
+| Seleção por busca acadêmica e *snowballing* | Concluída (46 candidatos, 25 incluídos) | `estudos-primarios-coletados/selecao-estudos.csv` |
+| Triagem dos registros das bases | **Pendente** (378 registros) | `estudos-primarios-coletados/triagem-bases.csv` |
+| Concordância entre revisores (kappa de Cohen) | **Pendente**; procedimento e script prontos | [Seção 5.1 do protocolo](protocolo/PROTOCOLO.md#51-procedimento-para-a-triagem-pendente-e-concordância-entre-revisores) e `synesis/scripts/concordancia.py` |
+| Extração e classificação dos incluídos | Concluída para os 25 estudos | `dados/extracao-estudos-incluidos.csv` |
+| Relatório automatizado | Concluído | `synesis/saida/relatorio.md` |
+| Artigo (SBC, ERI-GO 2026) | Submetido; será anexado após a revisão cega | Seção [Artigo](#artigo) |
+
 ## Estrutura do repositório
 
 ```
@@ -35,7 +52,7 @@ Mapeamento sistemático da literatura (tema 6) sobre agentes que processam múlt
     ├── README.md                      ← como rodar e como registrar a triagem
     ├── selecao/                       ← projeto Synesis da seleção (template com critérios CI/CE)
     ├── extracao/                      ← projeto Synesis da extração (template + ontologia)
-    ├── scripts/                       ← gerar_projetos.py e relatorio.py
+    ├── scripts/                       ← gerar_projetos.py, relatorio.py e concordancia.py
     ├── requirements.txt               ← dependências dos scripts
     └── saida/                         ← CSV, Excel, JSON e relatorio.md compilados
 ```
@@ -93,4 +110,5 @@ Os resultados deste mapeamento foram submetidos como artigo completo (modelo SBC
 1. Atualize o repositório local antes de começar (`git pull`).
 2. Registre decisões de triagem em `estudos-primarios-coletados/triagem-bases.csv` e classificações em `dados/extracao-estudos-incluidos.csv`.
 3. Rode `python scripts/gerar_projetos.py` e `python scripts/relatorio.py` (na pasta `synesis/`) e confira se a compilação passa sem erros.
-4. Faça commits pequenos, com mensagens no imperativo que digam o que mudou (por exemplo, `dados: classifica estudos da triagem do IEEE`).
+4. Na triagem, siga o procedimento de dupla revisão da [Seção 5.1 do protocolo](protocolo/PROTOCOLO.md#51-procedimento-para-a-triagem-pendente-e-concordância-entre-revisores) e registre o kappa obtido com `python scripts/concordancia.py kappa ...`.
+5. Faça commits pequenos, com mensagens no imperativo que digam o que mudou (por exemplo, `dados: classifica estudos da triagem do IEEE`).
