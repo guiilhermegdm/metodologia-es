@@ -32,7 +32,7 @@ Mapear o uso de agentes capazes de processar múltiplas modalidades (texto, voz,
 
 ### 3.1 String genérica
 
-A string combina quatro componentes: agente, afeto, modalidade e população.
+A string combina cinco blocos: agente, estado afetivo, modalidade, população e contexto de aprendizagem ou adaptação.
 
 ```
 (agent* OR tutor* OR robot* OR chatbot OR "virtual human" OR "serious game" OR "intelligent tutoring")
@@ -75,7 +75,7 @@ As quatro substrings da busca acadêmica cobrem estas subáreas:
 
 ### Inclusão
 
-- **CI1:** estudo primário que propõe, implementa ou avalia um agente (STI, agente virtual/avatar, robô social, *chatbot*/LLM, jogo sério ou sistema adaptativo) para estudantes neurodivergentes ou com deficiência sensorial.
+- **CI1:** estudo primário que propõe, implementa ou avalia um agente (sistema tutor inteligente – STI, agente virtual/avatar, robô social, *chatbot*/LLM, jogo sério ou sistema adaptativo) para estudantes neurodivergentes ou com deficiência sensorial.
 - **CI2:** o agente infere automaticamente ao menos um estado afetivo, atencional ou cognitivo a partir de sinais do estudante.
 - **CI3:** contexto de aprendizagem, treino de habilidades ou intervenção educacional/terapêutico-educacional.
 
