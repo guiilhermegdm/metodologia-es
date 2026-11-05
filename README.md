@@ -15,6 +15,7 @@ Mapeamento sistemático da literatura (tema 6) sobre agentes que processam múlt
 ```
 .
 ├── README.md                          ← este arquivo
+├── .gitattributes                     ← normalização de finais de linha (CSV em CRLF)
 ├── protocolo/
 │   └── PROTOCOLO.md                   ← questões, strings, fontes, critérios e esquema de classificação
 ├── estudos-primarios-coletados/
@@ -23,8 +24,8 @@ Mapeamento sistemático da literatura (tema 6) sobre agentes que processam múlt
 │   │   ├── ieee-xplore.bib            ← 367 registros retornados pela string
 │   │   └── acm-digital-library.bib    ← 16 registros retornados pela string
 │   ├── outras-fontes/
-│   │   └── candidatos-avaliados.bib   ← candidatos da busca acadêmica e do snowballing
-│   │   └── candidatos-sem-metadados.bib
+│   │   ├── candidatos-avaliados.bib   ← candidatos da busca acadêmica e do snowballing
+│   │   └── candidatos-sem-metadados.bib ← 10 excluídos sem metadados verificados (só rastreio)
 │   ├── estudos-incluidos.bib          ← 25 estudos primários incluídos
 │   ├── selecao-estudos.csv            ← decisão (incluído/excluído) e critério de cada candidato
 │   └── triagem-bases.csv              ← planilha de triagem dos 383 registros das bases
@@ -35,6 +36,7 @@ Mapeamento sistemático da literatura (tema 6) sobre agentes que processam múlt
     ├── selecao/                       ← projeto Synesis da seleção (template com critérios CI/CE)
     ├── extracao/                      ← projeto Synesis da extração (template + ontologia)
     ├── scripts/                       ← gerar_projetos.py e relatorio.py
+    ├── requirements.txt               ← dependências dos scripts
     └── saida/                         ← CSV, Excel, JSON e relatorio.md compilados
 ```
 
@@ -81,3 +83,14 @@ Os detalhes estão em [`synesis/README.md`](synesis/README.md).
 
 - **Arquivos `.bib`:** importe no Zotero, Mendeley, JabRef, Parsifal ou StArt para fazer a triagem.
 - **Arquivos `.csv`:** abra no Excel, LibreOffice ou Google Sheets (codificação UTF-8).
+
+## Artigo
+
+Os resultados deste mapeamento foram submetidos como artigo completo (modelo SBC, 8 a 10 páginas) à XIV Escola Regional de Informática de Goiás ([ERI-GO 2026](http://erigo.sbc.org.br/p/128-chamadas-de-trabalhos)), com revisão duplo-cega. Por isso, o PDF e os fontes LaTeX só serão adicionados a este repositório depois da divulgação do resultado, para não identificar a autoria durante a revisão.
+
+## Como contribuir
+
+1. Atualize o repositório local antes de começar (`git pull`).
+2. Registre decisões de triagem em `estudos-primarios-coletados/triagem-bases.csv` e classificações em `dados/extracao-estudos-incluidos.csv`.
+3. Rode `python scripts/gerar_projetos.py` e `python scripts/relatorio.py` (na pasta `synesis/`) e confira se a compilação passa sem erros.
+4. Faça commits pequenos, com mensagens no imperativo que digam o que mudou (por exemplo, `dados: classifica estudos da triagem do IEEE`).
