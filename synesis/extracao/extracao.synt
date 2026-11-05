@@ -1,0 +1,140 @@
+# =================================================================
+# Template de EXTRAÇÃO e CLASSIFICAÇÃO dos estudos primários incluídos
+# Mapeamento sistemático — Agentes Multimodais para Educação Inclusiva
+# Facetas de valor único ficam no SOURCE (ENUMERATED); facetas de múltiplos
+# valores ficam no ITEM como códigos controlados pela ontologia.
+# =================================================================
+
+SOURCE FIELDS
+    REQUIRED id_estudo, populacao, tipo_agente, tecnica, fusao, tempo_real, avaliacao, n_participantes
+END SOURCE FIELDS
+
+FIELD id_estudo TYPE TEXT
+    SCOPE SOURCE
+    DESCRIPTION Identificador do estudo no artigo (S01-S25)
+END FIELD
+
+FIELD populacao TYPE ENUMERATED
+    SCOPE SOURCE
+    DESCRIPTION Perfil de estudante atendido pelo agente (demografia, QP0)
+    VALUES
+        TEA: Transtorno do Espectro Autista
+        TDAH: Transtorno do Déficit de Atenção com Hiperatividade
+        Dislexia: Dislexia
+        DI: Deficiência intelectual
+        Surdez: Surdez ou deficiência auditiva
+        Baixa_visao: Cegueira ou baixa visão
+        Misto: Amostra com mais de um perfil
+    END VALUES
+END FIELD
+
+FIELD tipo_agente TYPE ENUMERATED
+    SCOPE SOURCE
+    DESCRIPTION Tipo de agente (demografia, QP0)
+    VALUES
+        robo_social: Robô social
+        rv_avatar: Ambiente de realidade virtual com avatar
+        sti: Sistema tutor inteligente
+        jogo_serio: Jogo sério adaptativo
+        agente_virtual: Agente pedagógico virtual
+        chatbot_llm: Chatbot ou agente baseado em LLM
+        sistema_adaptativo: Sistema adaptativo de interface
+    END VALUES
+END FIELD
+
+FIELD tecnica TYPE ENUMERATED
+    SCOPE SOURCE
+    DESCRIPTION Técnica de inferência afetiva (QP1.3)
+    VALUES
+        regras_limiares: Regras ou limiares
+        ml_classico: Aprendizado de máquina clássico
+        deep_learning: Deep learning
+        dl_llm: Deep learning combinado com LLM
+        nao_informado: Não informado no estudo
+    END VALUES
+END FIELD
+
+FIELD fusao TYPE ENUMERATED
+    SCOPE SOURCE
+    DESCRIPTION Nível de fusão multimodal (QP1.3)
+    VALUES
+        unimodal: Uma única modalidade
+        atributos: Fusão em nível de atributos
+        decisao: Fusão em nível de decisão
+        hibrida: Fusão híbrida
+        nao_informado: Não informado no estudo
+    END VALUES
+END FIELD
+
+FIELD tempo_real TYPE ENUMERATED
+    SCOPE SOURCE
+    DESCRIPTION A inferência ocorre durante a interação (QP1.4)
+    VALUES
+        sim: Inferência em tempo real
+        nao: Inferência offline
+        nao_informado: Não informado no estudo
+    END VALUES
+END FIELD
+
+FIELD avaliacao TYPE ORDERED
+    SCOPE SOURCE
+    DESCRIPTION Tipo de avaliação empírica (QP2.3)
+    VALUES
+        [1] prova_conceito: Prova de conceito
+        [2] laboratorio: Estudo de usuário em laboratório
+        [3] experimento: Experimento controlado
+        [4] campo: Estudo de campo
+    END VALUES
+END FIELD
+
+FIELD n_participantes TYPE TEXT
+    SCOPE SOURCE
+    DESCRIPTION Número de participantes relatado (n.i. quando não informado)
+END FIELD
+
+ITEM FIELDS
+    REQUIRED sintese, desfecho_afetivo, modalidade, estado, adaptacao
+END ITEM FIELDS
+
+FIELD sintese TYPE MEMO
+    SCOPE ITEM
+    DESCRIPTION Síntese do estudo em uma frase
+END FIELD
+
+FIELD desfecho_afetivo TYPE MEMO
+    SCOPE ITEM
+    DESCRIPTION Desfechos relatados sobre ansiedade, frustração, tédio, engajamento ou carga cognitiva (QP2.2)
+    GUIDELINES
+        Registre apenas resultados relatados no estudo, com números quando houver.
+        Escreva "não avaliado" quando o estudo não medir desfechos afetivos.
+    END GUIDELINES
+END FIELD
+
+FIELD modalidade TYPE CODE
+    SCOPE ITEM
+    DESCRIPTION Modalidades capturadas pelo agente (QP1.1); códigos mod_*
+END FIELD
+
+FIELD estado TYPE CODE
+    SCOPE ITEM
+    DESCRIPTION Estados afetivos, atencionais ou cognitivos inferidos (QP1.2); códigos est_*
+END FIELD
+
+FIELD adaptacao TYPE CODE
+    SCOPE ITEM
+    DESCRIPTION Estratégias de adaptação aplicadas (QP2.1); códigos adp_*
+END FIELD
+
+ONTOLOGY FIELDS
+    REQUIRED faceta, descricao
+END ONTOLOGY FIELDS
+
+FIELD faceta TYPE TOPIC
+    SCOPE ONTOLOGY
+    DESCRIPTION Faceta do esquema de classificação a que o código pertence
+END FIELD
+
+FIELD descricao TYPE TEXT
+    SCOPE ONTOLOGY
+    DESCRIPTION Definição operacional do código
+END FIELD

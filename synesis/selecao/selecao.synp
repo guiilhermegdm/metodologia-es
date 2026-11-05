@@ -1,0 +1,12 @@
+PROJECT selecao_mapeamento_agentes_multimodais
+    TEMPLATE "selecao.synt"
+    INCLUDE BIBLIOGRAPHY "bib/ieee-xplore.bib"
+    INCLUDE BIBLIOGRAPHY "bib/acm-digital-library.bib"
+    INCLUDE BIBLIOGRAPHY "bib/candidatos-avaliados.bib"
+    INCLUDE BIBLIOGRAPHY "bib/candidatos-sem-metadados.bib"
+    INCLUDE ANNOTATIONS "registros.syn"
+    METADATA
+        version: 1.0
+        dataset: Registros das strings de busca (IEEE Xplore, ACM DL) e de outras fontes
+    END METADATA
+END PROJECT

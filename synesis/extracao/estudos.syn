@@ -1,0 +1,476 @@
+# Gerado automaticamente por scripts/gerar_projetos.py a partir de dados/extracao-estudos-incluidos.csv
+
+SOURCE @rudovic2018personalized
+    id_estudo: S01
+    populacao: TEA
+    tipo_agente: robo_social
+    tecnica: deep_learning
+    fusao: atributos
+    tempo_real: nao
+    avaliacao: 4
+    n_participantes: 35
+END SOURCE
+
+ITEM @rudovic2018personalized
+    sintese: Framework de deep learning personalizado que permite a robôs sociais estimar afeto e engajamento de crianças com TEA a partir de áudio, vídeo e sinais fisiológicos em sessões de terapia.
+    desfecho_afetivo: Modelos personalizados estimaram afeto e engajamento melhor que modelos não personalizados; não houve adaptação do robô em tempo real.
+    modalidade: mod_voz, mod_face, mod_postura_gestos, mod_fisiologico
+    estado: est_engajamento, est_valencia_ativacao
+    adaptacao: adp_apenas_deteccao
+END ITEM
+
+SOURCE @jain2020modeling
+    id_estudo: S02
+    populacao: TEA
+    tipo_agente: robo_social
+    tecnica: ml_classico
+    fusao: atributos
+    tempo_real: nao
+    avaliacao: 4
+    n_participantes: 7
+END SOURCE
+
+ITEM @jain2020modeling
+    sintese: Modelos supervisionados (genéricos e individualizados) detectam engajamento de crianças com TEA em intervenções domiciliares de longo prazo com robô socialmente assistivo, a partir de face, olhar, pose, áudio e desempenho no jogo.
+    desfecho_afetivo: Detecção post hoc de engajamento com AUROC ~90%; padrões temporais das predições poderiam disparar ações de reengajamento, mas não foram implantados online.
+    modalidade: mod_face, mod_olhar, mod_postura_gestos, mod_voz, mod_interacao_logs
+    estado: est_engajamento
+    adaptacao: adp_apenas_deteccao
+END ITEM
+
+SOURCE @javed2020toward
+    id_estudo: S03
+    populacao: TEA
+    tipo_agente: robo_social
+    tecnica: deep_learning
+    fusao: atributos
+    tempo_real: nao
+    avaliacao: 2
+    n_participantes: 18
+END SOURCE
+
+ITEM @javed2020toward
+    sintese: Modelagem personalizada por CNN de engajamento social de crianças com TEA durante interação com robôs, a partir de movimento corporal e pontos faciais extraídos de vídeo.
+    desfecho_afetivo: Acurácia média ~0,78 (F1 0,76) na estimativa de engajamento; RF obteve 0,81; métrica não foi usada para adaptar o robô.
+    modalidade: mod_postura_gestos, mod_face
+    estado: est_engajamento
+    adaptacao: adp_apenas_deteccao
+END ITEM
+
+SOURCE @esteban2017build
+    id_estudo: S04
+    populacao: TEA
+    tipo_agente: robo_social
+    tecnica: ml_classico
+    fusao: decisao
+    tempo_real: sim
+    avaliacao: 1
+    n_participantes: n.i.
+END SOURCE
+
+ITEM @esteban2017build
+    sintese: Arquitetura de autonomia supervisionada do projeto DREAM em que o robô percebe olhar, expressões, movimento e voz da criança com TEA, estima engajamento e ajusta suas ações sob supervisão do terapeuta.
+    desfecho_afetivo: não avaliado (artigo de arquitetura; o robô tenta reengajar a criança quando o engajamento estimado é baixo antes de avançar no roteiro).
+    modalidade: mod_olhar, mod_face, mod_postura_gestos, mod_voz
+    estado: est_engajamento, est_emocoes_basicas
+    adaptacao: adp_ritmo, adp_tom_feedback
+END ITEM
+
+SOURCE @bekele2013step
+    id_estudo: S05
+    populacao: TEA
+    tipo_agente: robo_social
+    tecnica: regras_limiares
+    fusao: unimodal
+    tempo_real: sim
+    avaliacao: 2
+    n_participantes: 12
+END SOURCE
+
+ITEM @bekele2013step
+    sintese: Arquitetura em malha fechada com robô NAO que rastreia a orientação da cabeça/olhar de crianças pequenas com TEA e escalona prompts (verbal, gesto) em tarefas de atenção conjunta.
+    desfecho_afetivo: Crianças (TEA e típicas) olharam mais para o robô do que para o terapeuta humano; não houve mensuração de ansiedade/frustração.
+    modalidade: mod_olhar
+    estado: est_atencao
+    adaptacao: adp_formato, adp_tom_feedback
+END ITEM
+
+SOURCE @lahiri2011design
+    id_estudo: S06
+    populacao: TEA
+    tipo_agente: rv_avatar
+    tecnica: regras_limiares
+    fusao: decisao
+    tempo_real: sim
+    avaliacao: 2
+    n_participantes: 6
+END SOURCE
+
+ITEM @lahiri2011design
+    sintese: Sistema VIGART de RV com avatares que monitora o olhar (e pupila/piscadas) em tempo real e fornece feedback individualizado a adolescentes com TEA durante tarefas sociais.
+    desfecho_afetivo: Engajamento avaliado pelo cuidador tendeu a aumentar em tentativas posteriores (5/6); maior engajamento associado a mais olhar para a face; apenas estatística descritiva.
+    modalidade: mod_olhar, mod_fisiologico
+    estado: est_engajamento
+    adaptacao: adp_tom_feedback
+END ITEM
+
+SOURCE @lahiri2013design
+    id_estudo: S07
+    populacao: TEA
+    tipo_agente: rv_avatar
+    tecnica: regras_limiares
+    fusao: decisao
+    tempo_real: sim
+    avaliacao: 2
+    n_participantes: 8
+END SOURCE
+
+ITEM @lahiri2013design
+    sintese: Sistema de RV para conversação social que estima engajamento de adolescentes com TEA a partir de olhar e fisiologia ocular e adapta individualmente a interação.
+    desfecho_afetivo: Engajamento quantificado em tempo real; resultados preliminares indicam potencial para melhorar desempenho em tarefas sociais e padrões de olhar.
+    modalidade: mod_olhar, mod_fisiologico, mod_interacao_logs
+    estado: est_engajamento
+    adaptacao: adp_dificuldade, adp_tom_feedback
+END ITEM
+
+SOURCE @lahiri2015physiologically
+    id_estudo: S08
+    populacao: TEA
+    tipo_agente: rv_avatar
+    tecnica: regras_limiares
+    fusao: decisao
+    tempo_real: sim
+    avaliacao: 3
+    n_participantes: n.i.
+END SOURCE
+
+ITEM @lahiri2015physiologically
+    sintese: Compara conversas em RV adaptadas só por desempenho versus por desempenho + engajamento inferido do olhar e da fisiologia ocular em adolescentes com TEA.
+    desfecho_afetivo: Sistema sensível à fisiologia levou a melhor desempenho conversacional e padrões de olhar do que o sistema baseado apenas em desempenho.
+    modalidade: mod_olhar, mod_fisiologico, mod_interacao_logs
+    estado: est_engajamento
+    adaptacao: adp_dificuldade, adp_formato
+END ITEM
+
+SOURCE @bian2015physiology
+    id_estudo: S09
+    populacao: TEA
+    tipo_agente: rv_avatar
+    tecnica: ml_classico
+    fusao: unimodal
+    tempo_real: nao
+    avaliacao: 2
+    n_participantes: n.i.
+END SOURCE
+
+ITEM @bian2015physiology
+    sintese: Reconhecimento de engajamento, prazer, frustração e tédio a partir de oito canais fisiológicos em adolescentes com TEA usando simulador de direção em RV.
+    desfecho_afetivo: Modelos de reconhecimento afetivo produziram predições confiáveis (sem números no resumo); propostos como base para treino adaptativo de direção.
+    modalidade: mod_fisiologico
+    estado: est_engajamento, est_frustracao, est_tedio, est_prazer
+    adaptacao: adp_apenas_deteccao
+END ITEM
+
+SOURCE @bian2019design
+    id_estudo: S10
+    populacao: TEA
+    tipo_agente: rv_avatar
+    tecnica: ml_classico
+    fusao: decisao
+    tempo_real: sim
+    avaliacao: 3
+    n_participantes: 20
+END SOURCE
+
+ITEM @bian2019design
+    sintese: Simulador de direção em RV que ajusta a dificuldade a cada 3 min com base no engajamento inferido de sinais fisiológicos e no desempenho de adolescentes com TEA.
+    desfecho_afetivo: Grupo sensível ao engajamento teve índice de engajamento maior (0,78 vs 0,51; p=0,03) e gostou mais dos ajustes; sem diferenças significativas em frustração, tédio ou desempenho.
+    modalidade: mod_fisiologico, mod_interacao_logs
+    estado: est_engajamento
+    adaptacao: adp_dificuldade
+END ITEM
+
+SOURCE @zhang2015multimodal
+    id_estudo: S11
+    populacao: TEA
+    tipo_agente: rv_avatar
+    tecnica: ml_classico
+    fusao: hibrida
+    tempo_real: nao
+    avaliacao: 2
+    n_participantes: n.i.
+END SOURCE
+
+ITEM @zhang2015multimodal
+    sintese: Fusão de EEG, fisiologia periférica, olhar e desempenho para medir carga cognitiva de pessoas com TEA em tarefa adaptativa de direção em RV.
+    desfecho_afetivo: não avaliado (foco na acurácia de detecção de carga cognitiva, melhor resultado 84,66% com fusão híbrida).
+    modalidade: mod_fisiologico, mod_olhar, mod_interacao_logs
+    estado: est_carga_cognitiva
+    adaptacao: adp_apenas_deteccao
+END ITEM
+
+SOURCE @kuriakose2017design
+    id_estudo: S12
+    populacao: TEA
+    tipo_agente: rv_avatar
+    tecnica: nao_informado
+    fusao: nao_informado
+    tempo_real: sim
+    avaliacao: 2
+    n_participantes: n.i.
+END SOURCE
+
+ITEM @kuriakose2017design
+    sintese: Plataforma de comunicação social em RV que mede ansiedade em tempo real por biomarcadores fisiológicos e desempenho e adapta a dificuldade das tarefas sociais para crianças com TEA.
+    desfecho_afetivo: Estudo preliminar de usabilidade sugeriu melhora no desempenho nas tarefas; resultados específicos de ansiedade não detalhados no resumo.
+    modalidade: mod_fisiologico, mod_interacao_logs
+    estado: est_ansiedade
+    adaptacao: adp_dificuldade
+END ITEM
+
+SOURCE @standen2020evaluation
+    id_estudo: S13
+    populacao: DI
+    tipo_agente: sti
+    tecnica: ml_classico
+    fusao: nao_informado
+    tempo_real: nao_informado
+    avaliacao: 4
+    n_participantes: 67
+END SOURCE
+
+ITEM @standen2020evaluation
+    sintese: Sistema adaptativo (MaTHiSiS) que reconhece engajamento, frustração e tédio por sensores multimodais e seleciona conteúdo para manter aprendizes com deficiência intelectual em estados afetivos favoráveis.
+    desfecho_afetivo: Engajamento significativamente maior e tédio significativamente menor nas sessões com adaptação afetiva; sem diferença significativa no desempenho.
+    modalidade: mod_face, mod_olhar, mod_postura_gestos, mod_voz, mod_interacao_logs
+    estado: est_engajamento, est_frustracao, est_tedio
+    adaptacao: adp_dificuldade, adp_formato
+END ITEM
+
+SOURCE @boulton2018multi
+    id_estudo: S14
+    populacao: Misto
+    tipo_agente: sti
+    tecnica: nao_informado
+    fusao: nao_informado
+    tempo_real: nao_informado
+    avaliacao: 4
+    n_participantes: n.i.
+END SOURCE
+
+ITEM @boulton2018multi
+    sintese: Relato inicial da fase 2 do projeto MaTHiSiS sobre uso de robôs NAO e Kinect para detectar estados afetivos de aprendizes, incluindo alunos com dificuldades de aprendizagem profundas, em escolas do Reino Unido.
+    desfecho_afetivo: Relata achados iniciais e desafios de captura multimodal em sala de aula; desfechos afetivos não quantificados no resumo.
+    modalidade: mod_face, mod_olhar, mod_postura_gestos, mod_voz
+    estado: est_engajamento, est_confusao, est_frustracao
+    adaptacao: adp_dificuldade
+END ITEM
+
+SOURCE @lim2012brain
+    id_estudo: S15
+    populacao: TDAH
+    tipo_agente: jogo_serio
+    tecnica: ml_classico
+    fusao: unimodal
+    tempo_real: sim
+    avaliacao: 3
+    n_participantes: 20
+END SOURCE
+
+ITEM @lim2012brain
+    sintese: Jogo 3D (CogoLand) controlado por BCI-EEG em que a velocidade do avatar acompanha o nível de atenção da criança com TDAH, como treino de atenção.
+    desfecho_afetivo: Pais relataram redução significativa de sintomas de desatenção e hiperatividade-impulsividade; afeto/ansiedade não avaliados.
+    modalidade: mod_fisiologico
+    estado: est_atencao
+    adaptacao: adp_ritmo
+END ITEM
+
+SOURCE @lim2019randomized
+    id_estudo: S16
+    populacao: TDAH
+    tipo_agente: jogo_serio
+    tecnica: ml_classico
+    fusao: unimodal
+    tempo_real: sim
+    avaliacao: 3
+    n_participantes: 172
+END SOURCE
+
+ITEM @lim2019randomized
+    sintese: Ensaio clínico randomizado do jogo CogoLand controlado por EEG, cuja velocidade do avatar se adapta à atenção da criança com TDAH.
+    desfecho_afetivo: Melhora pequena porém significativa na desatenção (ADHD-RS) e maior melhora em problemas internalizantes (CBCL) no grupo intervenção; ansiedade não avaliada isoladamente.
+    modalidade: mod_fisiologico
+    estado: est_atencao
+    adaptacao: adp_ritmo
+END ITEM
+
+SOURCE @huang2023effective
+    id_estudo: S17
+    populacao: TDAH
+    tipo_agente: jogo_serio
+    tecnica: regras_limiares
+    fusao: unimodal
+    tempo_real: sim
+    avaliacao: 1
+    n_participantes: 5
+END SOURCE
+
+ITEM @huang2023effective
+    sintese: Sistema de neurofeedback com jogos sérios cujo progresso depende da modulação de frequências EEG, com limiares ajustados automaticamente, testado com crianças com déficit de atenção.
+    desfecho_afetivo: Piloto relatou melhora da atenção após o treino; afeto não avaliado.
+    modalidade: mod_fisiologico
+    estado: est_atencao
+    adaptacao: adp_ritmo, adp_dificuldade
+END ITEM
+
+SOURCE @johnstone2017game
+    id_estudo: S18
+    populacao: TDAH
+    tipo_agente: jogo_serio
+    tecnica: nao_informado
+    fusao: unimodal
+    tempo_real: sim
+    avaliacao: 3
+    n_participantes: 85
+END SOURCE
+
+ITEM @johnstone2017game
+    sintese: Ensaio randomizado do jogo Focus Pocus, que combina treino de memória de trabalho/controle inibitório com neurofeedback EEG para crianças com TDAH.
+    desfecho_afetivo: Prazer e engajamento declinaram ao longo das sessões; sintomas de TDAH reduziram segundo pais (e professores no grupo TDAH).
+    modalidade: mod_fisiologico
+    estado: est_atencao
+    adaptacao: adp_tom_feedback
+END ITEM
+
+SOURCE @schiavo2021attention
+    id_estudo: S19
+    populacao: Dislexia
+    tipo_agente: sti
+    tecnica: regras_limiares
+    fusao: unimodal
+    tempo_real: sim
+    avaliacao: 3
+    n_participantes: 40
+END SOURCE
+
+ITEM @schiavo2021attention
+    sintese: Ferramenta de leitura em voz alta controlada por eye-tracking que adapta a velocidade da narração ao olhar da criança com dislexia, aumentando a compreensão.
+    desfecho_afetivo: não avaliado (compreensão leitora de crianças com dislexia melhorou 24%).
+    modalidade: mod_olhar
+    estado: est_atencao
+    adaptacao: adp_ritmo, adp_formato
+END ITEM
+
+SOURCE @richter2024vaco
+    id_estudo: S20
+    populacao: TDAH
+    tipo_agente: agente_virtual
+    tecnica: ml_classico
+    fusao: nao_informado
+    tempo_real: sim
+    avaliacao: 2
+    n_participantes: 10
+END SOURCE
+
+ITEM @richter2024vaco
+    sintese: Desenvolvimento multiperspectiva de um agente robótico virtual que detecta desatenção pelo olhar e dá feedback motivacional em tarefas de matemática para crianças com TDAH.
+    desfecho_afetivo: SUS médio 78,9; cerca de metade das crianças achou Flobi motivador; ansiedade/frustração não avaliadas.
+    modalidade: mod_olhar, mod_face, mod_interacao_logs
+    estado: est_atencao
+    adaptacao: adp_tom_feedback, adp_dificuldade
+END ITEM
+
+SOURCE @leichert2025virtual
+    id_estudo: S21
+    populacao: DI
+    tipo_agente: agente_virtual
+    tecnica: regras_limiares
+    fusao: unimodal
+    tempo_real: sim
+    avaliacao: 4
+    n_participantes: 13
+END SOURCE
+
+ITEM @leichert2025virtual
+    sintese: Estudo de viabilidade do agente virtual Flobi (RoboCamp), que detecta desatenção pelo olhar e redireciona a atenção com feedback verbal, com adultos com DI em oficina protegida.
+    desfecho_afetivo: Tempo atento permaneceu alto para a maioria, mas o estudo de uma semana foi curto para mostrar melhora de atenção; limite de duas tentativas introduzido para reduzir frustração.
+    modalidade: mod_olhar, mod_interacao_logs
+    estado: est_atencao
+    adaptacao: adp_tom_feedback
+END ITEM
+
+SOURCE @piferi2025integrating
+    id_estudo: S22
+    populacao: Dislexia
+    tipo_agente: chatbot_llm
+    tecnica: dl_llm
+    fusao: decisao
+    tempo_real: sim
+    avaliacao: 1
+    n_participantes: 0
+END SOURCE
+
+ITEM @piferi2025integrating
+    sintese: Framework ChatCare: chatbot GPT-4o com avatar que detecta emoção em texto e voz e eventos de interação (erros, inatividade) para ajustar tom e mensagens proativas em atividades terapêutico-educativas para crianças com dislexia.
+    desfecho_afetivo: não avaliado.
+    modalidade: mod_texto, mod_voz, mod_interacao_logs
+    estado: est_emocoes_basicas, est_inatividade
+    adaptacao: adp_tom_feedback, adp_ritmo
+END ITEM
+
+SOURCE @woolf2010effect
+    id_estudo: S23
+    populacao: Misto
+    tipo_agente: agente_virtual
+    tecnica: nao_informado
+    fusao: nao_informado
+    tempo_real: nao_informado
+    avaliacao: 3
+    n_participantes: ~100
+END SOURCE
+
+ITEM @woolf2010effect
+    sintese: Avaliação randomizada de companheiros de aprendizagem afetivos em um STI de matemática, mostrando redução de frustração e ansiedade em alunos de baixo desempenho e com dificuldades de aprendizagem.
+    desfecho_afetivo: Após interagir com os agentes afetivos, estudantes de baixo desempenho (incluindo com dificuldades de aprendizagem) reduziram frustração e ansiedade.
+    modalidade: mod_interacao_logs
+    estado: est_frustracao, est_ansiedade, est_confianca, est_interesse
+    adaptacao: adp_tom_feedback, adp_regulacao_emocional
+END ITEM
+
+SOURCE @rupasinghe2026interactive
+    id_estudo: S24
+    populacao: Surdez
+    tipo_agente: jogo_serio
+    tecnica: deep_learning
+    fusao: decisao
+    tempo_real: sim
+    avaliacao: 1
+    n_participantes: n.i.
+END SOURCE
+
+ITEM @rupasinghe2026interactive
+    sintese: Sistema gamificado de aprendizagem de língua de sinais para crianças surdas que combina reconhecimento de emoção facial e intensidade de gestos para estimar engajamento, com painel de progresso para os pais.
+    desfecho_afetivo: Reporta acurácia de validação de 96,9% para o modelo facial e maior robustez na detecção de engajamento; desfechos afetivos em usuários não avaliados.
+    modalidade: mod_face, mod_postura_gestos
+    estado: est_emocoes_basicas, est_engajamento
+    adaptacao: adp_apenas_deteccao
+END ITEM
+
+SOURCE @navneet2026orchestrating
+    id_estudo: S25
+    populacao: TDAH
+    tipo_agente: sistema_adaptativo
+    tecnica: ml_classico
+    fusao: unimodal
+    tempo_real: sim
+    avaliacao: 3
+    n_participantes: 11
+END SOURCE
+
+ITEM @navneet2026orchestrating
+    sintese: AttentionGuard infere quatro estados de atenção inspirados na fenomenologia do TDAH a partir de sinais comportamentais e aplica cinco padrões de adaptação de interface, incluindo andaime bidirecional para sub e superestimulação.
+    desfecho_afetivo: Condição adaptativa reduziu a carga cognitiva (NASA-TLX 47,2 vs 62,8; d=1,21; p=0,008) e aumentou a compreensão (78,4% vs 61,2%; p=0,009).
+    modalidade: mod_interacao_logs
+    estado: est_atencao, est_carga_cognitiva
+    adaptacao: adp_formato, adp_ritmo
+END ITEM

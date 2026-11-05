@@ -1,0 +1,2571 @@
+{
+  "version": "3.0",
+  "export_metadata": {
+    "timestamp": "2026-11-05T12:52:21.722102+00:00",
+    "compiler_version": "1.1",
+    "export_mode": "universal",
+    "chain_count": 0,
+    "item_count": 25,
+    "source_count": 25,
+    "concept_count": 26
+  },
+  "project": {
+    "name": "extracao_mapeamento_agentes_multimodais",
+    "template_path": "extracao.synt",
+    "includes": [
+      {
+        "include_type": "BIBLIOGRAPHY",
+        "path": "bib/estudos-incluidos.bib",
+        "shared": false,
+        "location": {
+          "file": "extracao.synp",
+          "line": 3,
+          "column": 5
+        }
+      },
+      {
+        "include_type": "ANNOTATIONS",
+        "path": "estudos.syn",
+        "shared": false,
+        "location": {
+          "file": "extracao.synp",
+          "line": 4,
+          "column": 5
+        }
+      },
+      {
+        "include_type": "ONTOLOGY",
+        "path": "ontologia.syno",
+        "shared": false,
+        "location": {
+          "file": "extracao.synp",
+          "line": 5,
+          "column": 5
+        }
+      }
+    ],
+    "metadata": {
+      "version": "1.0",
+      "dataset": "Estudos primários incluídos (S01-S25)"
+    },
+    "description": null,
+    "location": {
+      "file": "extracao.synp",
+      "line": 1,
+      "column": 1
+    }
+  },
+  "template": {
+    "name": "",
+    "metadata": {},
+    "field_specs": {
+      "id_estudo": {
+        "name": "id_estudo",
+        "type": "TEXT",
+        "scope": "SOURCE",
+        "format": null,
+        "description": "Identificador do estudo no artigo (S01-S25)",
+        "values": null,
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 12,
+          "column": 1
+        }
+      },
+      "populacao": {
+        "name": "populacao",
+        "type": "ENUMERATED",
+        "scope": "SOURCE",
+        "format": null,
+        "description": "Perfil de estudante atendido pelo agente (demografia, QP0)",
+        "values": [
+          {
+            "index": -1,
+            "label": "TEA",
+            "description": "Transtorno do Espectro Autista",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 21,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "TDAH",
+            "description": "Transtorno do Déficit de Atenção com Hiperatividade",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 22,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "Dislexia",
+            "description": "Dislexia",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 23,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "DI",
+            "description": "Deficiência intelectual",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 24,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "Surdez",
+            "description": "Surdez ou deficiência auditiva",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 25,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "Baixa_visao",
+            "description": "Cegueira ou baixa visão",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 26,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "Misto",
+            "description": "Amostra com mais de um perfil",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 27,
+              "column": 9
+            }
+          }
+        ],
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 17,
+          "column": 1
+        }
+      },
+      "tipo_agente": {
+        "name": "tipo_agente",
+        "type": "ENUMERATED",
+        "scope": "SOURCE",
+        "format": null,
+        "description": "Tipo de agente (demografia, QP0)",
+        "values": [
+          {
+            "index": -1,
+            "label": "robo_social",
+            "description": "Robô social",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 35,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "rv_avatar",
+            "description": "Ambiente de realidade virtual com avatar",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 36,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "sti",
+            "description": "Sistema tutor inteligente",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 37,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "jogo_serio",
+            "description": "Jogo sério adaptativo",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 38,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "agente_virtual",
+            "description": "Agente pedagógico virtual",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 39,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "chatbot_llm",
+            "description": "Chatbot ou agente baseado em LLM",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 40,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "sistema_adaptativo",
+            "description": "Sistema adaptativo de interface",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 41,
+              "column": 9
+            }
+          }
+        ],
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 31,
+          "column": 1
+        }
+      },
+      "tecnica": {
+        "name": "tecnica",
+        "type": "ENUMERATED",
+        "scope": "SOURCE",
+        "format": null,
+        "description": "Técnica de inferência afetiva (QP1.3)",
+        "values": [
+          {
+            "index": -1,
+            "label": "regras_limiares",
+            "description": "Regras ou limiares",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 49,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "ml_classico",
+            "description": "Aprendizado de máquina clássico",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 50,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "deep_learning",
+            "description": "Deep learning",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 51,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "dl_llm",
+            "description": "Deep learning combinado com LLM",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 52,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "nao_informado",
+            "description": "Não informado no estudo",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 53,
+              "column": 9
+            }
+          }
+        ],
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 45,
+          "column": 1
+        }
+      },
+      "fusao": {
+        "name": "fusao",
+        "type": "ENUMERATED",
+        "scope": "SOURCE",
+        "format": null,
+        "description": "Nível de fusão multimodal (QP1.3)",
+        "values": [
+          {
+            "index": -1,
+            "label": "unimodal",
+            "description": "Uma única modalidade",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 61,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "atributos",
+            "description": "Fusão em nível de atributos",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 62,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "decisao",
+            "description": "Fusão em nível de decisão",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 63,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "hibrida",
+            "description": "Fusão híbrida",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 64,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "nao_informado",
+            "description": "Não informado no estudo",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 65,
+              "column": 9
+            }
+          }
+        ],
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 57,
+          "column": 1
+        }
+      },
+      "tempo_real": {
+        "name": "tempo_real",
+        "type": "ENUMERATED",
+        "scope": "SOURCE",
+        "format": null,
+        "description": "A inferência ocorre durante a interação (QP1.4)",
+        "values": [
+          {
+            "index": -1,
+            "label": "sim",
+            "description": "Inferência em tempo real",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 73,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "nao",
+            "description": "Inferência offline",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 74,
+              "column": 9
+            }
+          },
+          {
+            "index": -1,
+            "label": "nao_informado",
+            "description": "Não informado no estudo",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 75,
+              "column": 9
+            }
+          }
+        ],
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 69,
+          "column": 1
+        }
+      },
+      "avaliacao": {
+        "name": "avaliacao",
+        "type": "ORDERED",
+        "scope": "SOURCE",
+        "format": null,
+        "description": "Tipo de avaliação empírica (QP2.3)",
+        "values": [
+          {
+            "index": 1,
+            "label": "prova_conceito",
+            "description": "Prova de conceito",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 83,
+              "column": 9
+            }
+          },
+          {
+            "index": 2,
+            "label": "laboratorio",
+            "description": "Estudo de usuário em laboratório",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 84,
+              "column": 9
+            }
+          },
+          {
+            "index": 3,
+            "label": "experimento",
+            "description": "Experimento controlado",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 85,
+              "column": 9
+            }
+          },
+          {
+            "index": 4,
+            "label": "campo",
+            "description": "Estudo de campo",
+            "location": {
+              "file": "extracao/extracao.synt",
+              "line": 86,
+              "column": 9
+            }
+          }
+        ],
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 79,
+          "column": 1
+        }
+      },
+      "n_participantes": {
+        "name": "n_participantes",
+        "type": "TEXT",
+        "scope": "SOURCE",
+        "format": null,
+        "description": "Número de participantes relatado (n.i. quando não informado)",
+        "values": null,
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 90,
+          "column": 1
+        }
+      },
+      "sintese": {
+        "name": "sintese",
+        "type": "MEMO",
+        "scope": "ITEM",
+        "format": null,
+        "description": "Síntese do estudo em uma frase",
+        "values": null,
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 99,
+          "column": 1
+        }
+      },
+      "desfecho_afetivo": {
+        "name": "desfecho_afetivo",
+        "type": "MEMO",
+        "scope": "ITEM",
+        "format": null,
+        "description": "Desfechos relatados sobre ansiedade, frustração, tédio, engajamento ou carga cognitiva (QP2.2)",
+        "values": null,
+        "relations": null,
+        "arity": null,
+        "guidelines": "Registre apenas resultados relatados no estudo, com números quando houver.\nEscreva \"não avaliado\" quando o estudo não medir desfechos afetivos.",
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 104,
+          "column": 1
+        }
+      },
+      "modalidade": {
+        "name": "modalidade",
+        "type": "CODE",
+        "scope": "ITEM",
+        "format": null,
+        "description": "Modalidades capturadas pelo agente (QP1.1); códigos mod_*",
+        "values": null,
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 113,
+          "column": 1
+        }
+      },
+      "estado": {
+        "name": "estado",
+        "type": "CODE",
+        "scope": "ITEM",
+        "format": null,
+        "description": "Estados afetivos, atencionais ou cognitivos inferidos (QP1.2); códigos est_*",
+        "values": null,
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 118,
+          "column": 1
+        }
+      },
+      "adaptacao": {
+        "name": "adaptacao",
+        "type": "CODE",
+        "scope": "ITEM",
+        "format": null,
+        "description": "Estratégias de adaptação aplicadas (QP2.1); códigos adp_*",
+        "values": null,
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 123,
+          "column": 1
+        }
+      },
+      "faceta": {
+        "name": "faceta",
+        "type": "TOPIC",
+        "scope": "ONTOLOGY",
+        "format": null,
+        "description": "Faceta do esquema de classificação a que o código pertence",
+        "values": null,
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 132,
+          "column": 1
+        }
+      },
+      "descricao": {
+        "name": "descricao",
+        "type": "TEXT",
+        "scope": "ONTOLOGY",
+        "format": null,
+        "description": "Definição operacional do código",
+        "values": null,
+        "relations": null,
+        "arity": null,
+        "guidelines": null,
+        "identifies": null,
+        "refers_to": null,
+        "value_origin": "document",
+        "dataset_path": null,
+        "context_from_dataset": null,
+        "location": {
+          "file": "extracao/extracao.synt",
+          "line": 137,
+          "column": 1
+        }
+      }
+    },
+    "required_fields": {
+      "SOURCE": [
+        "id_estudo",
+        "populacao",
+        "tipo_agente",
+        "tecnica",
+        "fusao",
+        "tempo_real",
+        "avaliacao",
+        "n_participantes"
+      ],
+      "ITEM": [
+        "sintese",
+        "desfecho_afetivo",
+        "modalidade",
+        "estado",
+        "adaptacao"
+      ],
+      "ONTOLOGY": [
+        "faceta",
+        "descricao"
+      ]
+    },
+    "optional_fields": {
+      "SOURCE": [],
+      "ITEM": [],
+      "ONTOLOGY": []
+    },
+    "forbidden_fields": {
+      "SOURCE": [],
+      "ITEM": [],
+      "ONTOLOGY": []
+    },
+    "bundled_fields": {
+      "SOURCE": [],
+      "ITEM": [],
+      "ONTOLOGY": []
+    },
+    "optional_bundles": {
+      "SOURCE": [],
+      "ITEM": [],
+      "ONTOLOGY": []
+    },
+    "location": {
+      "file": "extracao/extracao.synt",
+      "line": 1,
+      "column": 1
+    }
+  },
+  "bibliography": {
+    "rudovic2018personalized": {
+      "doi": "10.1126/scirobotics.aao6760",
+      "pages": "eaao6760",
+      "number": "19",
+      "volume": "3",
+      "year": "2018",
+      "journal": "Science Robotics",
+      "title": "Personalized machine learning for robot perception of affect and engagement in autism therapy",
+      "author": "Rudovic, Ognjen and Lee, Jaeryoung and Dai, Miles and Schuller, Bj{\\\"o}rn and Picard, Rosalind W.",
+      "ENTRYTYPE": "article",
+      "ID": "rudovic2018personalized",
+      "id_estudo": "S01",
+      "populacao": "TEA",
+      "tipo_agente": "robo_social",
+      "tecnica": "deep_learning",
+      "fusao": "atributos",
+      "tempo_real": "nao",
+      "avaliacao": 4,
+      "n_participantes": 35
+    },
+    "jain2020modeling": {
+      "doi": "10.1126/scirobotics.aaz3791",
+      "pages": "eaaz3791",
+      "number": "39",
+      "volume": "5",
+      "year": "2020",
+      "journal": "Science Robotics",
+      "title": "Modeling engagement in long-term, in-home socially assistive robot interventions for children with autism spectrum disorders",
+      "author": "Jain, Shomik and Thiagarajan, Balasubramanian and Shi, Zhonghao and Clabaugh, Caitlyn and Matari{\\'c}, Maja J.",
+      "ENTRYTYPE": "article",
+      "ID": "jain2020modeling",
+      "id_estudo": "S02",
+      "populacao": "TEA",
+      "tipo_agente": "robo_social",
+      "tecnica": "ml_classico",
+      "fusao": "atributos",
+      "tempo_real": "nao",
+      "avaliacao": 4,
+      "n_participantes": 7
+    },
+    "javed2020toward": {
+      "doi": "10.3389/frobt.2020.00043",
+      "volume": "7",
+      "year": "2020",
+      "journal": "Frontiers in Robotics and AI",
+      "title": "Toward an Automated Measure of Social Engagement for Children With Autism Spectrum Disorder---A Personalized Computational Modeling Approach",
+      "author": "Javed, Hifza and Lee, WonHyong and Park, Chung Hyuk",
+      "ENTRYTYPE": "article",
+      "ID": "javed2020toward",
+      "id_estudo": "S03",
+      "populacao": "TEA",
+      "tipo_agente": "robo_social",
+      "tecnica": "deep_learning",
+      "fusao": "atributos",
+      "tempo_real": "nao",
+      "avaliacao": 2,
+      "n_participantes": 18
+    },
+    "esteban2017build": {
+      "doi": "10.1515/pjbr-2017-0002",
+      "pages": "18--38",
+      "number": "1",
+      "volume": "8",
+      "year": "2017",
+      "journal": "Paladyn, Journal of Behavioral Robotics",
+      "title": "How to Build a Supervised Autonomous System for Robot-Enhanced Therapy for Children with Autism Spectrum Disorder",
+      "author": "Esteban, Pablo G. and Baxter, Paul and Belpaeme, Tony and Billing, Erik and Cai, Haibin and Cao, Hoang-Long and Coeckelbergh, Mark and Costescu, Cristina and David, Daniel and De Beir, Albert and Fang, Yinfeng and Ju, Zhaojie and Kennedy, James and Liu, Honghai and Mazel, Alexandre and Pandey, Amit and Richardson, Kathleen and Senft, Emmanuel and Thill, Serge and Van de Perre, Greet and Vanderborght, Bram and Vernon, David and Yu, Hui and Ziemke, Tom",
+      "ENTRYTYPE": "article",
+      "ID": "esteban2017build",
+      "id_estudo": "S04",
+      "populacao": "TEA",
+      "tipo_agente": "robo_social",
+      "tecnica": "ml_classico",
+      "fusao": "decisao",
+      "tempo_real": "sim",
+      "avaliacao": 1,
+      "n_participantes": "n.i."
+    },
+    "bekele2013step": {
+      "doi": "10.1109/TNSRE.2012.2230188",
+      "pages": "289--299",
+      "number": "2",
+      "volume": "21",
+      "year": "2013",
+      "journal": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "title": "A Step Towards Developing Adaptive Robot-Mediated Intervention Architecture ({ARIA}) for Children With Autism",
+      "author": "Bekele, Esubalew T. and Lahiri, Uttama and Swanson, Amy R. and Crittendon, Julie A. and Warren, Zachary E. and Sarkar, Nilanjan",
+      "ENTRYTYPE": "article",
+      "ID": "bekele2013step",
+      "id_estudo": "S05",
+      "populacao": "TEA",
+      "tipo_agente": "robo_social",
+      "tecnica": "regras_limiares",
+      "fusao": "unimodal",
+      "tempo_real": "sim",
+      "avaliacao": 2,
+      "n_participantes": 12
+    },
+    "lahiri2011design": {
+      "doi": "10.1109/TNSRE.2011.2153874",
+      "number": "4",
+      "volume": "19",
+      "year": "2011",
+      "journal": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "title": "Design of a Gaze-Sensitive Virtual Social Interactive System for Children With Autism",
+      "author": "Lahiri, Uttama and Warren, Zachary and Sarkar, Nilanjan",
+      "ENTRYTYPE": "article",
+      "ID": "lahiri2011design",
+      "id_estudo": "S06",
+      "populacao": "TEA",
+      "tipo_agente": "rv_avatar",
+      "tecnica": "regras_limiares",
+      "fusao": "decisao",
+      "tempo_real": "sim",
+      "avaliacao": 2,
+      "n_participantes": 6
+    },
+    "lahiri2013design": {
+      "doi": "10.1109/TNSRE.2012.2218618",
+      "pages": "55--64",
+      "number": "1",
+      "volume": "21",
+      "year": "2013",
+      "journal": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "title": "Design of a Virtual Reality Based Adaptive Response Technology for Children With Autism",
+      "author": "Lahiri, Uttama and Bekele, Esubalew and Dohrmann, Elizabeth and Warren, Zachary and Sarkar, Nilanjan",
+      "ENTRYTYPE": "article",
+      "ID": "lahiri2013design",
+      "id_estudo": "S07",
+      "populacao": "TEA",
+      "tipo_agente": "rv_avatar",
+      "tecnica": "regras_limiares",
+      "fusao": "decisao",
+      "tempo_real": "sim",
+      "avaliacao": 2,
+      "n_participantes": 8
+    },
+    "lahiri2015physiologically": {
+      "doi": "10.1007/s10803-014-2240-5",
+      "pages": "919--931",
+      "number": "4",
+      "volume": "45",
+      "year": "2015",
+      "journal": "Journal of Autism and Developmental Disorders",
+      "title": "A Physiologically Informed Virtual Reality Based Social Communication System for Individuals with Autism",
+      "author": "Lahiri, Uttama and Bekele, Esubalew and Dohrmann, Elizabeth and Warren, Zachary and Sarkar, Nilanjan",
+      "ENTRYTYPE": "article",
+      "ID": "lahiri2015physiologically",
+      "id_estudo": "S08",
+      "populacao": "TEA",
+      "tipo_agente": "rv_avatar",
+      "tecnica": "regras_limiares",
+      "fusao": "decisao",
+      "tempo_real": "sim",
+      "avaliacao": 3,
+      "n_participantes": "n.i."
+    },
+    "bian2015physiology": {
+      "doi": "10.5220/0005331301370145",
+      "pages": "137--145",
+      "volume": "1",
+      "year": "2015",
+      "booktitle": "Proceedings of the 2nd International Conference on Physiological Computing Systems (PhyCS)",
+      "title": "Physiology-based Affect Recognition During Driving in Virtual Environment for Autism Intervention",
+      "author": "Bian, Dayi and Wade, Joshua and Swanson, Amy and Warren, Zachary and Sarkar, Nilanjan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bian2015physiology",
+      "id_estudo": "S09",
+      "populacao": "TEA",
+      "tipo_agente": "rv_avatar",
+      "tecnica": "ml_classico",
+      "fusao": "unimodal",
+      "tempo_real": "nao",
+      "avaliacao": 2,
+      "n_participantes": "n.i."
+    },
+    "bian2019design": {
+      "doi": "10.1145/3301498",
+      "pages": "2:1--2:24",
+      "number": "1",
+      "volume": "12",
+      "year": "2019",
+      "journal": "ACM Transactions on Accessible Computing",
+      "title": "Design of a Physiology-based Adaptive Virtual Reality Driving Platform for Individuals with {ASD}",
+      "author": "Bian, Dayi and Wade, Joshua and Swanson, Amy and Weitlauf, Amy and Warren, Zachary and Sarkar, Nilanjan",
+      "ENTRYTYPE": "article",
+      "ID": "bian2019design",
+      "id_estudo": "S10",
+      "populacao": "TEA",
+      "tipo_agente": "rv_avatar",
+      "tecnica": "ml_classico",
+      "fusao": "decisao",
+      "tempo_real": "sim",
+      "avaliacao": 3,
+      "n_participantes": 20
+    },
+    "zhang2015multimodal": {
+      "doi": "10.1007/978-3-319-20684-4_68",
+      "year": "2015",
+      "publisher": "Springer",
+      "volume": "9177",
+      "series": "Lecture Notes in Computer Science",
+      "booktitle": "Universal Access in Human-Computer Interaction (UAHCI 2015)",
+      "title": "Multimodal Fusion for Cognitive Load Measurement in an Adaptive Virtual Reality Driving Task for Autism Intervention",
+      "author": "Zhang, Lian and Wade, Joshua and Bian, Dayi and Fan, Jing and Swanson, Amy and Weitlauf, Amy and Warren, Zachary and Sarkar, Nilanjan",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "zhang2015multimodal",
+      "id_estudo": "S11",
+      "populacao": "TEA",
+      "tipo_agente": "rv_avatar",
+      "tecnica": "ml_classico",
+      "fusao": "hibrida",
+      "tempo_real": "nao",
+      "avaliacao": 2,
+      "n_participantes": "n.i."
+    },
+    "kuriakose2017design": {
+      "doi": "10.1109/TNSRE.2016.2613879",
+      "number": "8",
+      "volume": "25",
+      "year": "2017",
+      "journal": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+      "title": "Design of a Physiology-Sensitive {VR}-Based Social Communication Platform for Children with Autism",
+      "author": "Kuriakose, Selvia and Lahiri, Uttama",
+      "ENTRYTYPE": "article",
+      "ID": "kuriakose2017design",
+      "id_estudo": "S12",
+      "populacao": "TEA",
+      "tipo_agente": "rv_avatar",
+      "tecnica": "nao_informado",
+      "fusao": "nao_informado",
+      "tempo_real": "sim",
+      "avaliacao": 2,
+      "n_participantes": "n.i."
+    },
+    "standen2020evaluation": {
+      "doi": "10.1111/bjet.13010",
+      "pages": "1748--1765",
+      "number": "5",
+      "volume": "51",
+      "year": "2020",
+      "journal": "British Journal of Educational Technology",
+      "title": "An evaluation of an adaptive learning system based on multimodal affect recognition for learners with intellectual disabilities",
+      "author": "Standen, P. J. and Brown, D. J. and Taheri, M. and Galvez Trigo, M. J. and Boulton, H. and Burton, A. and Hallewell, M. J. and Lathe, J. G. and Shopland, N. and Blanco Gonzalez, M. A. and Kwiatkowska, G. M. and Milli, E. and Cobello, S. and Mazzucato, A. and Traversi, M. and Hortal, E.",
+      "ENTRYTYPE": "article",
+      "ID": "standen2020evaluation",
+      "id_estudo": "S13",
+      "populacao": "DI",
+      "tipo_agente": "sti",
+      "tecnica": "ml_classico",
+      "fusao": "nao_informado",
+      "tempo_real": "nao_informado",
+      "avaliacao": 4,
+      "n_participantes": 67
+    },
+    "boulton2018multi": {
+      "doi": "10.21125/inted.2018.0264",
+      "isbn": "978-84-697-9480-7",
+      "year": "2018",
+      "pages": "1542--1547",
+      "publisher": "IATED",
+      "address": "Valencia, Spain",
+      "booktitle": "INTED2018 Proceedings: 12th International Technology, Education and Development Conference",
+      "title": "Multi-Modalities in Classroom Learning Environments",
+      "author": "Boulton, H. and Brown, D. and Standen, P. and Belmonte, M. and Kwiatkowska, G. and Hughes-Roberts, T. and Taheri, M.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "boulton2018multi",
+      "id_estudo": "S14",
+      "populacao": "Misto",
+      "tipo_agente": "sti",
+      "tecnica": "nao_informado",
+      "fusao": "nao_informado",
+      "tempo_real": "nao_informado",
+      "avaliacao": 4,
+      "n_participantes": "n.i."
+    },
+    "lim2012brain": {
+      "doi": "10.1371/journal.pone.0046692",
+      "pages": "e46692",
+      "number": "10",
+      "volume": "7",
+      "year": "2012",
+      "journal": "PLoS ONE",
+      "title": "A Brain-Computer Interface Based Attention Training Program for Treating Attention Deficit Hyperactivity Disorder",
+      "author": "Lim, Choon Guan and Lee, Tih Shih and Guan, Cuntai and Fung, Daniel Shuen Sheng and Zhao, Yudong and Teng, Stephanie Sze Wei and Zhang, Haihong and Krishnan, K. Ranga Rama",
+      "ENTRYTYPE": "article",
+      "ID": "lim2012brain",
+      "id_estudo": "S15",
+      "populacao": "TDAH",
+      "tipo_agente": "jogo_serio",
+      "tecnica": "ml_classico",
+      "fusao": "unimodal",
+      "tempo_real": "sim",
+      "avaliacao": 3,
+      "n_participantes": 20
+    },
+    "lim2019randomized": {
+      "doi": "10.1371/journal.pone.0216225",
+      "pages": "e0216225",
+      "number": "5",
+      "volume": "14",
+      "year": "2019",
+      "journal": "PLoS ONE",
+      "title": "A randomized controlled trial of a brain-computer interface based attention training program for ADHD",
+      "author": "Lim, Choon Guan and Poh, Xue Wei Wendy and Fung, Shuen Sheng Daniel and Guan, Cuntai and Bautista, Dianne and Cheung, Yin Bun and Zhang, Haihong and Yeo, Si Ning and Krishnan, Ranga and Lee, Tih Shih",
+      "ENTRYTYPE": "article",
+      "ID": "lim2019randomized",
+      "id_estudo": "S16",
+      "populacao": "TDAH",
+      "tipo_agente": "jogo_serio",
+      "tecnica": "ml_classico",
+      "fusao": "unimodal",
+      "tempo_real": "sim",
+      "avaliacao": 3,
+      "n_participantes": 172
+    },
+    "huang2023effective": {
+      "doi": "10.1109/ACCESS.2023.3322932",
+      "pages": "112175--112188",
+      "volume": "11",
+      "year": "2023",
+      "journal": "IEEE Access",
+      "title": "Effective Neurofeedback Training of Large Electroencephalogram Signals Using Serious Video Games",
+      "author": "Huang, Haitao and Shin, Min-Chul and Lee, Jieun and Yoon, Seung-Hyun",
+      "ENTRYTYPE": "article",
+      "ID": "huang2023effective",
+      "id_estudo": "S17",
+      "populacao": "TDAH",
+      "tipo_agente": "jogo_serio",
+      "tecnica": "regras_limiares",
+      "fusao": "unimodal",
+      "tempo_real": "sim",
+      "avaliacao": 1,
+      "n_participantes": 5
+    },
+    "johnstone2017game": {
+      "url": "https://ro.uow.edu.au/sspapers/3607",
+      "pages": "32--44",
+      "volume": "116",
+      "year": "2017",
+      "journal": "International Journal of Psychophysiology",
+      "title": "Game-based combined cognitive and neurofeedback training using Focus Pocus reduces symptom severity in children with diagnosed AD/HD and subclinical AD/HD",
+      "author": "Johnstone, S. J. and Roodenrys, S. J. and Johnson, K. and Bonfield, R. and Bennett, S. J.",
+      "ENTRYTYPE": "article",
+      "ID": "johnstone2017game",
+      "id_estudo": "S18",
+      "populacao": "TDAH",
+      "tipo_agente": "jogo_serio",
+      "tecnica": "nao_informado",
+      "fusao": "unimodal",
+      "tempo_real": "sim",
+      "avaliacao": 3,
+      "n_participantes": 85
+    },
+    "schiavo2021attention": {
+      "doi": "10.1111/jcal.12530",
+      "pages": "875--886",
+      "number": "3",
+      "volume": "37",
+      "year": "2021",
+      "journal": "Journal of Computer Assisted Learning",
+      "title": "Attention-driven read-aloud technology increases reading comprehension in children with reading disabilities",
+      "author": "Schiavo, Gianluca and Mana, Nadia and Mich, Ornella and Zancanaro, Massimo and Job, Remo",
+      "ENTRYTYPE": "article",
+      "ID": "schiavo2021attention",
+      "id_estudo": "S19",
+      "populacao": "Dislexia",
+      "tipo_agente": "sti",
+      "tecnica": "regras_limiares",
+      "fusao": "unimodal",
+      "tempo_real": "sim",
+      "avaliacao": 3,
+      "n_participantes": 40
+    },
+    "richter2024vaco": {
+      "howpublished": "Preprint arXiv:2405.03354",
+      "url": "https://arxiv.org/abs/2405.03354",
+      "archiveprefix": "arXiv",
+      "eprint": "2405.03354",
+      "year": "2024",
+      "title": "{VACO}: a Multi-perspective Development of a Therapeutic and Motivational Virtual Robotic Agent for Concentration for children with {ADHD}",
+      "author": "Richter, Birte and Petras, Ira-Katharina and Vollmer, Anna-Lisa and Luong, Ayla and Siniatchkin, Michael and Wrede, Britta",
+      "ENTRYTYPE": "misc",
+      "ID": "richter2024vaco",
+      "id_estudo": "S20",
+      "populacao": "TDAH",
+      "tipo_agente": "agente_virtual",
+      "tecnica": "ml_classico",
+      "fusao": "nao_informado",
+      "tempo_real": "sim",
+      "avaliacao": 2,
+      "n_participantes": 10
+    },
+    "leichert2025virtual": {
+      "howpublished": "Preprint arXiv:2504.06031",
+      "url": "https://arxiv.org/abs/2504.06031",
+      "archiveprefix": "arXiv",
+      "eprint": "2504.06031",
+      "year": "2025",
+      "title": "Virtual Agent Tutors in Sheltered Workshops: A Feasibility Study on Attention Training for Individuals with Intellectual Disabilities",
+      "author": "Leichert, Julian and Koke, Monique and Wrede, Britta and Richter, Birte",
+      "ENTRYTYPE": "misc",
+      "ID": "leichert2025virtual",
+      "id_estudo": "S21",
+      "populacao": "DI",
+      "tipo_agente": "agente_virtual",
+      "tecnica": "regras_limiares",
+      "fusao": "unimodal",
+      "tempo_real": "sim",
+      "avaliacao": 4,
+      "n_participantes": 13
+    },
+    "piferi2025integrating": {
+      "url": "https://ceur-ws.org/Vol-4051/paper8.pdf",
+      "year": "2025",
+      "pages": "70--79",
+      "volume": "4051",
+      "series": "CEUR Workshop Proceedings",
+      "booktitle": "Transformative Curriculum Design - Digitalisation, Sustainability, and AI Literacy for 21st Century Learning (D-SAIL Workshop, co-located with AIED 2025)",
+      "title": "Integrating Large Language Models into Therapeutic Education for Children with Dyslexia: a Multimodal Framework",
+      "author": "Piferi, Francesco and Caleffi, Giovanni and Valcamonica, Giulia and Crovari, Pietro and Garzotto, Franca",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "piferi2025integrating",
+      "id_estudo": "S22",
+      "populacao": "Dislexia",
+      "tipo_agente": "chatbot_llm",
+      "tecnica": "dl_llm",
+      "fusao": "decisao",
+      "tempo_real": "sim",
+      "avaliacao": 1,
+      "n_participantes": 0
+    },
+    "woolf2010effect": {
+      "doi": "10.1007/978-3-642-13388-6_37",
+      "year": "2010",
+      "publisher": "Springer",
+      "pages": "327--337",
+      "volume": "6094",
+      "series": "Lecture Notes in Computer Science",
+      "booktitle": "Intelligent Tutoring Systems: 10th International Conference, ITS 2010, Proceedings, Part I",
+      "title": "The Effect of Motivational Learning Companions on Low Achieving Students and Students with Disabilities",
+      "author": "Woolf, B. P. and Arroyo, I. and Muldner, K. and Burleson, W. and Cooper, D. G. and Dolan, R. and Christopherson, R. M.",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "woolf2010effect",
+      "id_estudo": "S23",
+      "populacao": "Misto",
+      "tipo_agente": "agente_virtual",
+      "tecnica": "nao_informado",
+      "fusao": "nao_informado",
+      "tempo_real": "nao_informado",
+      "avaliacao": 3,
+      "n_participantes": "~100"
+    },
+    "rupasinghe2026interactive": {
+      "doi": "10.1109/ICHORA69329.2026.11537237",
+      "pages": "1-8",
+      "year": "2026",
+      "title": "Interactive Sign Language Learning System with Multimodal Emotion and Interaction Recognition Analysis",
+      "booktitle": "2026 8th International Congress on Human-Computer Interaction, Optimization and Robotic Applications (ICHORA)",
+      "author": "Rupasinghe, S N and Lakshman, P A D K and Dilumina, K S and Mahoshadhi, K M and Siriwardana, Samanthi E.R and Weerathunga, I",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "rupasinghe2026interactive",
+      "id_estudo": "S24",
+      "populacao": "Surdez",
+      "tipo_agente": "jogo_serio",
+      "tecnica": "deep_learning",
+      "fusao": "decisao",
+      "tempo_real": "sim",
+      "avaliacao": 1,
+      "n_participantes": "n.i."
+    },
+    "navneet2026orchestrating": {
+      "howpublished": "Preprint arXiv:2602.07865",
+      "url": "https://arxiv.org/abs/2602.07865",
+      "primaryclass": "cs.HC",
+      "archiveprefix": "arXiv",
+      "eprint": "2602.07865",
+      "year": "2026",
+      "title": "Orchestrating Attention: Bringing Harmony to the 'Chaos' of Neurodivergent Learning States",
+      "author": "Navneet, Satyam Kumar and Chandra, Joydeep and Zhang, Yong",
+      "ENTRYTYPE": "misc",
+      "ID": "navneet2026orchestrating",
+      "id_estudo": "S25",
+      "populacao": "TDAH",
+      "tipo_agente": "sistema_adaptativo",
+      "tecnica": "ml_classico",
+      "fusao": "unimodal",
+      "tempo_real": "sim",
+      "avaliacao": 3,
+      "n_participantes": 11
+    }
+  },
+  "dataset": {},
+  "indices": {
+    "hierarchy": {},
+    "triples": [],
+    "topics": {
+      "Modalidade": [
+        "mod_texto",
+        "mod_voz",
+        "mod_face",
+        "mod_olhar",
+        "mod_fisiologico",
+        "mod_postura_gestos",
+        "mod_interacao_logs"
+      ],
+      "Estado": [
+        "est_engajamento",
+        "est_atencao",
+        "est_frustracao",
+        "est_tedio",
+        "est_ansiedade",
+        "est_carga_cognitiva",
+        "est_confusao",
+        "est_emocoes_basicas",
+        "est_valencia_ativacao",
+        "est_prazer",
+        "est_inatividade",
+        "est_confianca",
+        "est_interesse"
+      ],
+      "Adaptacao": [
+        "adp_ritmo",
+        "adp_formato",
+        "adp_tom_feedback",
+        "adp_dificuldade",
+        "adp_regulacao_emocional",
+        "adp_apenas_deteccao"
+      ]
+    },
+    "code_frequency": {
+      "mod_voz": 6,
+      "mod_face": 8,
+      "mod_postura_gestos": 7,
+      "mod_fisiologico": 12,
+      "est_engajamento": 12,
+      "est_valencia_ativacao": 1,
+      "adp_apenas_deteccao": 6,
+      "mod_olhar": 12,
+      "mod_interacao_logs": 12,
+      "est_emocoes_basicas": 3,
+      "adp_ritmo": 7,
+      "adp_tom_feedback": 9,
+      "est_atencao": 9,
+      "adp_formato": 5,
+      "adp_dificuldade": 8,
+      "est_frustracao": 4,
+      "est_tedio": 2,
+      "est_prazer": 1,
+      "est_carga_cognitiva": 2,
+      "est_ansiedade": 2,
+      "est_confusao": 1,
+      "mod_texto": 1,
+      "est_inatividade": 1,
+      "est_confianca": 1,
+      "est_interesse": 1,
+      "adp_regulacao_emocional": 1
+    }
+  },
+  "ontology": {
+    "adp_apenas_deteccao": {
+      "concept": "adp_apenas_deteccao",
+      "faceta": "Adaptacao",
+      "descricao": "O agente apenas detecta o estado, sem adaptar a interação",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 128,
+        "column": 1
+      },
+      "frequency": 6,
+      "source_count": 6
+    },
+    "adp_dificuldade": {
+      "concept": "adp_dificuldade",
+      "faceta": "Adaptacao",
+      "descricao": "Ajuste de dificuldade ou seleção de conteúdo",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 118,
+        "column": 1
+      },
+      "frequency": 8,
+      "source_count": 8
+    },
+    "adp_formato": {
+      "concept": "adp_formato",
+      "faceta": "Adaptacao",
+      "descricao": "Mudança de formato ou modalidade de apresentação do conteúdo",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 108,
+        "column": 1
+      },
+      "frequency": 5,
+      "source_count": 5
+    },
+    "adp_regulacao_emocional": {
+      "concept": "adp_regulacao_emocional",
+      "faceta": "Adaptacao",
+      "descricao": "Estratégias explícitas de regulação emocional",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 123,
+        "column": 1
+      },
+      "frequency": 1,
+      "source_count": 1
+    },
+    "adp_ritmo": {
+      "concept": "adp_ritmo",
+      "faceta": "Adaptacao",
+      "descricao": "Ajuste de ritmo, velocidade ou pausas",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 103,
+        "column": 1
+      },
+      "frequency": 7,
+      "source_count": 7
+    },
+    "adp_tom_feedback": {
+      "concept": "adp_tom_feedback",
+      "faceta": "Adaptacao",
+      "descricao": "Ajuste de tom ou feedback afetivo e motivacional",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 113,
+        "column": 1
+      },
+      "frequency": 9,
+      "source_count": 9
+    },
+    "est_ansiedade": {
+      "concept": "est_ansiedade",
+      "faceta": "Estado",
+      "descricao": "Ansiedade ou estresse",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 58,
+        "column": 1
+      },
+      "frequency": 2,
+      "source_count": 2
+    },
+    "est_atencao": {
+      "concept": "est_atencao",
+      "faceta": "Estado",
+      "descricao": "Atenção ou desatenção sustentada",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 43,
+        "column": 1
+      },
+      "frequency": 9,
+      "source_count": 9
+    },
+    "est_carga_cognitiva": {
+      "concept": "est_carga_cognitiva",
+      "faceta": "Estado",
+      "descricao": "Carga cognitiva ou sobrecarga",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 63,
+        "column": 1
+      },
+      "frequency": 2,
+      "source_count": 2
+    },
+    "est_confianca": {
+      "concept": "est_confianca",
+      "faceta": "Estado",
+      "descricao": "Confiança percebida",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 93,
+        "column": 1
+      },
+      "frequency": 1,
+      "source_count": 1
+    },
+    "est_confusao": {
+      "concept": "est_confusao",
+      "faceta": "Estado",
+      "descricao": "Confusão",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 68,
+        "column": 1
+      },
+      "frequency": 1,
+      "source_count": 1
+    },
+    "est_emocoes_basicas": {
+      "concept": "est_emocoes_basicas",
+      "faceta": "Estado",
+      "descricao": "Emoções básicas (alegria, tristeza, raiva etc.)",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 73,
+        "column": 1
+      },
+      "frequency": 3,
+      "source_count": 3
+    },
+    "est_engajamento": {
+      "concept": "est_engajamento",
+      "faceta": "Estado",
+      "descricao": "Engajamento com a tarefa ou com o agente",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 38,
+        "column": 1
+      },
+      "frequency": 12,
+      "source_count": 12
+    },
+    "est_frustracao": {
+      "concept": "est_frustracao",
+      "faceta": "Estado",
+      "descricao": "Frustração",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 48,
+        "column": 1
+      },
+      "frequency": 4,
+      "source_count": 4
+    },
+    "est_inatividade": {
+      "concept": "est_inatividade",
+      "faceta": "Estado",
+      "descricao": "Inatividade ou ausência de resposta",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 88,
+        "column": 1
+      },
+      "frequency": 1,
+      "source_count": 1
+    },
+    "est_interesse": {
+      "concept": "est_interesse",
+      "faceta": "Estado",
+      "descricao": "Interesse",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 98,
+        "column": 1
+      },
+      "frequency": 1,
+      "source_count": 1
+    },
+    "est_prazer": {
+      "concept": "est_prazer",
+      "faceta": "Estado",
+      "descricao": "Prazer ou divertimento",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 83,
+        "column": 1
+      },
+      "frequency": 1,
+      "source_count": 1
+    },
+    "est_tedio": {
+      "concept": "est_tedio",
+      "faceta": "Estado",
+      "descricao": "Tédio",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 53,
+        "column": 1
+      },
+      "frequency": 2,
+      "source_count": 2
+    },
+    "est_valencia_ativacao": {
+      "concept": "est_valencia_ativacao",
+      "faceta": "Estado",
+      "descricao": "Dimensões de valência e ativação (arousal)",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 78,
+        "column": 1
+      },
+      "frequency": 1,
+      "source_count": 1
+    },
+    "mod_face": {
+      "concept": "mod_face",
+      "faceta": "Modalidade",
+      "descricao": "Expressões faciais captadas por câmera",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 13,
+        "column": 1
+      },
+      "frequency": 8,
+      "source_count": 8
+    },
+    "mod_fisiologico": {
+      "concept": "mod_fisiologico",
+      "faceta": "Modalidade",
+      "descricao": "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 23,
+        "column": 1
+      },
+      "frequency": 12,
+      "source_count": 12
+    },
+    "mod_interacao_logs": {
+      "concept": "mod_interacao_logs",
+      "faceta": "Modalidade",
+      "descricao": "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 33,
+        "column": 1
+      },
+      "frequency": 12,
+      "source_count": 12
+    },
+    "mod_olhar": {
+      "concept": "mod_olhar",
+      "faceta": "Modalidade",
+      "descricao": "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 18,
+        "column": 1
+      },
+      "frequency": 12,
+      "source_count": 12
+    },
+    "mod_postura_gestos": {
+      "concept": "mod_postura_gestos",
+      "faceta": "Modalidade",
+      "descricao": "Postura corporal, movimentos de cabeça e gestos",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 28,
+        "column": 1
+      },
+      "frequency": 7,
+      "source_count": 7
+    },
+    "mod_texto": {
+      "concept": "mod_texto",
+      "faceta": "Modalidade",
+      "descricao": "Texto digitado ou escrito pelo estudante",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 3,
+        "column": 1
+      },
+      "frequency": 1,
+      "source_count": 1
+    },
+    "mod_voz": {
+      "concept": "mod_voz",
+      "faceta": "Modalidade",
+      "descricao": "Fala e prosódia (tom, ritmo, intensidade da voz)",
+      "location": {
+        "file": "extracao/ontologia.syno",
+        "line": 8,
+        "column": 1
+      },
+      "frequency": 6,
+      "source_count": 6
+    }
+  },
+  "corpus": [
+    {
+      "id": "rudovic2018personalized_item0001",
+      "source_ref": "@rudovic2018personalized",
+      "data": {
+        "sintese": "Framework de deep learning personalizado que permite a robôs sociais estimar afeto e engajamento de crianças com TEA a partir de áudio, vídeo e sinais fisiológicos em sessões de terapia.",
+        "desfecho_afetivo": "Modelos personalizados estimaram afeto e engajamento melhor que modelos não personalizados; não houve adaptação do robô em tempo real.",
+        "modalidade": [
+          "mod_voz",
+          "mod_face",
+          "mod_postura_gestos",
+          "mod_fisiologico"
+        ],
+        "estado": [
+          "est_engajamento",
+          "est_valencia_ativacao"
+        ],
+        "adaptacao": [
+          "adp_apenas_deteccao"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Fala e prosódia (tom, ritmo, intensidade da voz)",
+          "Expressões faciais captadas por câmera",
+          "Postura corporal, movimentos de cabeça e gestos",
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Engajamento com a tarefa ou com o agente",
+          "Dimensões de valência e ativação (arousal)",
+          "O agente apenas detecta o estado, sem adaptar a interação"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 14
+      }
+    },
+    {
+      "id": "jain2020modeling_item0001",
+      "source_ref": "@jain2020modeling",
+      "data": {
+        "sintese": "Modelos supervisionados (genéricos e individualizados) detectam engajamento de crianças com TEA em intervenções domiciliares de longo prazo com robô socialmente assistivo, a partir de face, olhar, pose, áudio e desempenho no jogo.",
+        "desfecho_afetivo": "Detecção post hoc de engajamento com AUROC ~90%; padrões temporais das predições poderiam disparar ações de reengajamento, mas não foram implantados online.",
+        "modalidade": [
+          "mod_face",
+          "mod_olhar",
+          "mod_postura_gestos",
+          "mod_voz",
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_engajamento"
+        ],
+        "adaptacao": [
+          "adp_apenas_deteccao"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Expressões faciais captadas por câmera",
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Postura corporal, movimentos de cabeça e gestos",
+          "Fala e prosódia (tom, ritmo, intensidade da voz)",
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Engajamento com a tarefa ou com o agente",
+          "O agente apenas detecta o estado, sem adaptar a interação"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 33
+      }
+    },
+    {
+      "id": "javed2020toward_item0001",
+      "source_ref": "@javed2020toward",
+      "data": {
+        "sintese": "Modelagem personalizada por CNN de engajamento social de crianças com TEA durante interação com robôs, a partir de movimento corporal e pontos faciais extraídos de vídeo.",
+        "desfecho_afetivo": "Acurácia média ~0,78 (F1 0,76) na estimativa de engajamento; RF obteve 0,81; métrica não foi usada para adaptar o robô.",
+        "modalidade": [
+          "mod_postura_gestos",
+          "mod_face"
+        ],
+        "estado": [
+          "est_engajamento"
+        ],
+        "adaptacao": [
+          "adp_apenas_deteccao"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Postura corporal, movimentos de cabeça e gestos",
+          "Expressões faciais captadas por câmera",
+          "Engajamento com a tarefa ou com o agente",
+          "O agente apenas detecta o estado, sem adaptar a interação"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 52
+      }
+    },
+    {
+      "id": "esteban2017build_item0001",
+      "source_ref": "@esteban2017build",
+      "data": {
+        "sintese": "Arquitetura de autonomia supervisionada do projeto DREAM em que o robô percebe olhar, expressões, movimento e voz da criança com TEA, estima engajamento e ajusta suas ações sob supervisão do terapeuta.",
+        "desfecho_afetivo": "não avaliado (artigo de arquitetura; o robô tenta reengajar a criança quando o engajamento estimado é baixo antes de avançar no roteiro).",
+        "modalidade": [
+          "mod_olhar",
+          "mod_face",
+          "mod_postura_gestos",
+          "mod_voz"
+        ],
+        "estado": [
+          "est_engajamento",
+          "est_emocoes_basicas"
+        ],
+        "adaptacao": [
+          "adp_ritmo",
+          "adp_tom_feedback"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Expressões faciais captadas por câmera",
+          "Postura corporal, movimentos de cabeça e gestos",
+          "Fala e prosódia (tom, ritmo, intensidade da voz)",
+          "Engajamento com a tarefa ou com o agente",
+          "Emoções básicas (alegria, tristeza, raiva etc.)",
+          "Ajuste de ritmo, velocidade ou pausas",
+          "Ajuste de tom ou feedback afetivo e motivacional"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 71
+      }
+    },
+    {
+      "id": "bekele2013step_item0001",
+      "source_ref": "@bekele2013step",
+      "data": {
+        "sintese": "Arquitetura em malha fechada com robô NAO que rastreia a orientação da cabeça/olhar de crianças pequenas com TEA e escalona prompts (verbal, gesto) em tarefas de atenção conjunta.",
+        "desfecho_afetivo": "Crianças (TEA e típicas) olharam mais para o robô do que para o terapeuta humano; não houve mensuração de ansiedade/frustração.",
+        "modalidade": [
+          "mod_olhar"
+        ],
+        "estado": [
+          "est_atencao"
+        ],
+        "adaptacao": [
+          "adp_formato",
+          "adp_tom_feedback"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Atenção ou desatenção sustentada",
+          "Mudança de formato ou modalidade de apresentação do conteúdo",
+          "Ajuste de tom ou feedback afetivo e motivacional"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 90
+      }
+    },
+    {
+      "id": "lahiri2011design_item0001",
+      "source_ref": "@lahiri2011design",
+      "data": {
+        "sintese": "Sistema VIGART de RV com avatares que monitora o olhar (e pupila/piscadas) em tempo real e fornece feedback individualizado a adolescentes com TEA durante tarefas sociais.",
+        "desfecho_afetivo": "Engajamento avaliado pelo cuidador tendeu a aumentar em tentativas posteriores (5/6); maior engajamento associado a mais olhar para a face; apenas estatística descritiva.",
+        "modalidade": [
+          "mod_olhar",
+          "mod_fisiologico"
+        ],
+        "estado": [
+          "est_engajamento"
+        ],
+        "adaptacao": [
+          "adp_tom_feedback"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Engajamento com a tarefa ou com o agente",
+          "Ajuste de tom ou feedback afetivo e motivacional"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 109
+      }
+    },
+    {
+      "id": "lahiri2013design_item0001",
+      "source_ref": "@lahiri2013design",
+      "data": {
+        "sintese": "Sistema de RV para conversação social que estima engajamento de adolescentes com TEA a partir de olhar e fisiologia ocular e adapta individualmente a interação.",
+        "desfecho_afetivo": "Engajamento quantificado em tempo real; resultados preliminares indicam potencial para melhorar desempenho em tarefas sociais e padrões de olhar.",
+        "modalidade": [
+          "mod_olhar",
+          "mod_fisiologico",
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_engajamento"
+        ],
+        "adaptacao": [
+          "adp_dificuldade",
+          "adp_tom_feedback"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Engajamento com a tarefa ou com o agente",
+          "Ajuste de dificuldade ou seleção de conteúdo",
+          "Ajuste de tom ou feedback afetivo e motivacional"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 128
+      }
+    },
+    {
+      "id": "lahiri2015physiologically_item0001",
+      "source_ref": "@lahiri2015physiologically",
+      "data": {
+        "sintese": "Compara conversas em RV adaptadas só por desempenho versus por desempenho + engajamento inferido do olhar e da fisiologia ocular em adolescentes com TEA.",
+        "desfecho_afetivo": "Sistema sensível à fisiologia levou a melhor desempenho conversacional e padrões de olhar do que o sistema baseado apenas em desempenho.",
+        "modalidade": [
+          "mod_olhar",
+          "mod_fisiologico",
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_engajamento"
+        ],
+        "adaptacao": [
+          "adp_dificuldade",
+          "adp_formato"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Engajamento com a tarefa ou com o agente",
+          "Ajuste de dificuldade ou seleção de conteúdo",
+          "Mudança de formato ou modalidade de apresentação do conteúdo"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 147
+      }
+    },
+    {
+      "id": "bian2015physiology_item0001",
+      "source_ref": "@bian2015physiology",
+      "data": {
+        "sintese": "Reconhecimento de engajamento, prazer, frustração e tédio a partir de oito canais fisiológicos em adolescentes com TEA usando simulador de direção em RV.",
+        "desfecho_afetivo": "Modelos de reconhecimento afetivo produziram predições confiáveis (sem números no resumo); propostos como base para treino adaptativo de direção.",
+        "modalidade": [
+          "mod_fisiologico"
+        ],
+        "estado": [
+          "est_engajamento",
+          "est_frustracao",
+          "est_tedio",
+          "est_prazer"
+        ],
+        "adaptacao": [
+          "adp_apenas_deteccao"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Estado",
+          "Estado",
+          "Estado",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Engajamento com a tarefa ou com o agente",
+          "Frustração",
+          "Tédio",
+          "Prazer ou divertimento",
+          "O agente apenas detecta o estado, sem adaptar a interação"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 166
+      }
+    },
+    {
+      "id": "bian2019design_item0001",
+      "source_ref": "@bian2019design",
+      "data": {
+        "sintese": "Simulador de direção em RV que ajusta a dificuldade a cada 3 min com base no engajamento inferido de sinais fisiológicos e no desempenho de adolescentes com TEA.",
+        "desfecho_afetivo": "Grupo sensível ao engajamento teve índice de engajamento maior (0,78 vs 0,51; p=0,03) e gostou mais dos ajustes; sem diferenças significativas em frustração, tédio ou desempenho.",
+        "modalidade": [
+          "mod_fisiologico",
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_engajamento"
+        ],
+        "adaptacao": [
+          "adp_dificuldade"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Engajamento com a tarefa ou com o agente",
+          "Ajuste de dificuldade ou seleção de conteúdo"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 185
+      }
+    },
+    {
+      "id": "zhang2015multimodal_item0001",
+      "source_ref": "@zhang2015multimodal",
+      "data": {
+        "sintese": "Fusão de EEG, fisiologia periférica, olhar e desempenho para medir carga cognitiva de pessoas com TEA em tarefa adaptativa de direção em RV.",
+        "desfecho_afetivo": "não avaliado (foco na acurácia de detecção de carga cognitiva, melhor resultado 84,66% com fusão híbrida).",
+        "modalidade": [
+          "mod_fisiologico",
+          "mod_olhar",
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_carga_cognitiva"
+        ],
+        "adaptacao": [
+          "adp_apenas_deteccao"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Carga cognitiva ou sobrecarga",
+          "O agente apenas detecta o estado, sem adaptar a interação"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 204
+      }
+    },
+    {
+      "id": "kuriakose2017design_item0001",
+      "source_ref": "@kuriakose2017design",
+      "data": {
+        "sintese": "Plataforma de comunicação social em RV que mede ansiedade em tempo real por biomarcadores fisiológicos e desempenho e adapta a dificuldade das tarefas sociais para crianças com TEA.",
+        "desfecho_afetivo": "Estudo preliminar de usabilidade sugeriu melhora no desempenho nas tarefas; resultados específicos de ansiedade não detalhados no resumo.",
+        "modalidade": [
+          "mod_fisiologico",
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_ansiedade"
+        ],
+        "adaptacao": [
+          "adp_dificuldade"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Ansiedade ou estresse",
+          "Ajuste de dificuldade ou seleção de conteúdo"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 223
+      }
+    },
+    {
+      "id": "standen2020evaluation_item0001",
+      "source_ref": "@standen2020evaluation",
+      "data": {
+        "sintese": "Sistema adaptativo (MaTHiSiS) que reconhece engajamento, frustração e tédio por sensores multimodais e seleciona conteúdo para manter aprendizes com deficiência intelectual em estados afetivos favoráveis.",
+        "desfecho_afetivo": "Engajamento significativamente maior e tédio significativamente menor nas sessões com adaptação afetiva; sem diferença significativa no desempenho.",
+        "modalidade": [
+          "mod_face",
+          "mod_olhar",
+          "mod_postura_gestos",
+          "mod_voz",
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_engajamento",
+          "est_frustracao",
+          "est_tedio"
+        ],
+        "adaptacao": [
+          "adp_dificuldade",
+          "adp_formato"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Estado",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Expressões faciais captadas por câmera",
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Postura corporal, movimentos de cabeça e gestos",
+          "Fala e prosódia (tom, ritmo, intensidade da voz)",
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Engajamento com a tarefa ou com o agente",
+          "Frustração",
+          "Tédio",
+          "Ajuste de dificuldade ou seleção de conteúdo",
+          "Mudança de formato ou modalidade de apresentação do conteúdo"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 242
+      }
+    },
+    {
+      "id": "boulton2018multi_item0001",
+      "source_ref": "@boulton2018multi",
+      "data": {
+        "sintese": "Relato inicial da fase 2 do projeto MaTHiSiS sobre uso de robôs NAO e Kinect para detectar estados afetivos de aprendizes, incluindo alunos com dificuldades de aprendizagem profundas, em escolas do Reino Unido.",
+        "desfecho_afetivo": "Relata achados iniciais e desafios de captura multimodal em sala de aula; desfechos afetivos não quantificados no resumo.",
+        "modalidade": [
+          "mod_face",
+          "mod_olhar",
+          "mod_postura_gestos",
+          "mod_voz"
+        ],
+        "estado": [
+          "est_engajamento",
+          "est_confusao",
+          "est_frustracao"
+        ],
+        "adaptacao": [
+          "adp_dificuldade"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Estado",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Expressões faciais captadas por câmera",
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Postura corporal, movimentos de cabeça e gestos",
+          "Fala e prosódia (tom, ritmo, intensidade da voz)",
+          "Engajamento com a tarefa ou com o agente",
+          "Confusão",
+          "Frustração",
+          "Ajuste de dificuldade ou seleção de conteúdo"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 261
+      }
+    },
+    {
+      "id": "lim2012brain_item0001",
+      "source_ref": "@lim2012brain",
+      "data": {
+        "sintese": "Jogo 3D (CogoLand) controlado por BCI-EEG em que a velocidade do avatar acompanha o nível de atenção da criança com TDAH, como treino de atenção.",
+        "desfecho_afetivo": "Pais relataram redução significativa de sintomas de desatenção e hiperatividade-impulsividade; afeto/ansiedade não avaliados.",
+        "modalidade": [
+          "mod_fisiologico"
+        ],
+        "estado": [
+          "est_atencao"
+        ],
+        "adaptacao": [
+          "adp_ritmo"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Atenção ou desatenção sustentada",
+          "Ajuste de ritmo, velocidade ou pausas"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 280
+      }
+    },
+    {
+      "id": "lim2019randomized_item0001",
+      "source_ref": "@lim2019randomized",
+      "data": {
+        "sintese": "Ensaio clínico randomizado do jogo CogoLand controlado por EEG, cuja velocidade do avatar se adapta à atenção da criança com TDAH.",
+        "desfecho_afetivo": "Melhora pequena porém significativa na desatenção (ADHD-RS) e maior melhora em problemas internalizantes (CBCL) no grupo intervenção; ansiedade não avaliada isoladamente.",
+        "modalidade": [
+          "mod_fisiologico"
+        ],
+        "estado": [
+          "est_atencao"
+        ],
+        "adaptacao": [
+          "adp_ritmo"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Atenção ou desatenção sustentada",
+          "Ajuste de ritmo, velocidade ou pausas"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 299
+      }
+    },
+    {
+      "id": "huang2023effective_item0001",
+      "source_ref": "@huang2023effective",
+      "data": {
+        "sintese": "Sistema de neurofeedback com jogos sérios cujo progresso depende da modulação de frequências EEG, com limiares ajustados automaticamente, testado com crianças com déficit de atenção.",
+        "desfecho_afetivo": "Piloto relatou melhora da atenção após o treino; afeto não avaliado.",
+        "modalidade": [
+          "mod_fisiologico"
+        ],
+        "estado": [
+          "est_atencao"
+        ],
+        "adaptacao": [
+          "adp_ritmo",
+          "adp_dificuldade"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Atenção ou desatenção sustentada",
+          "Ajuste de ritmo, velocidade ou pausas",
+          "Ajuste de dificuldade ou seleção de conteúdo"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 318
+      }
+    },
+    {
+      "id": "johnstone2017game_item0001",
+      "source_ref": "@johnstone2017game",
+      "data": {
+        "sintese": "Ensaio randomizado do jogo Focus Pocus, que combina treino de memória de trabalho/controle inibitório com neurofeedback EEG para crianças com TDAH.",
+        "desfecho_afetivo": "Prazer e engajamento declinaram ao longo das sessões; sintomas de TDAH reduziram segundo pais (e professores no grupo TDAH).",
+        "modalidade": [
+          "mod_fisiologico"
+        ],
+        "estado": [
+          "est_atencao"
+        ],
+        "adaptacao": [
+          "adp_tom_feedback"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",
+          "Atenção ou desatenção sustentada",
+          "Ajuste de tom ou feedback afetivo e motivacional"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 337
+      }
+    },
+    {
+      "id": "schiavo2021attention_item0001",
+      "source_ref": "@schiavo2021attention",
+      "data": {
+        "sintese": "Ferramenta de leitura em voz alta controlada por eye-tracking que adapta a velocidade da narração ao olhar da criança com dislexia, aumentando a compreensão.",
+        "desfecho_afetivo": "não avaliado (compreensão leitora de crianças com dislexia melhorou 24%).",
+        "modalidade": [
+          "mod_olhar"
+        ],
+        "estado": [
+          "est_atencao"
+        ],
+        "adaptacao": [
+          "adp_ritmo",
+          "adp_formato"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Atenção ou desatenção sustentada",
+          "Ajuste de ritmo, velocidade ou pausas",
+          "Mudança de formato ou modalidade de apresentação do conteúdo"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 356
+      }
+    },
+    {
+      "id": "richter2024vaco_item0001",
+      "source_ref": "@richter2024vaco",
+      "data": {
+        "sintese": "Desenvolvimento multiperspectiva de um agente robótico virtual que detecta desatenção pelo olhar e dá feedback motivacional em tarefas de matemática para crianças com TDAH.",
+        "desfecho_afetivo": "SUS médio 78,9; cerca de metade das crianças achou Flobi motivador; ansiedade/frustração não avaliadas.",
+        "modalidade": [
+          "mod_olhar",
+          "mod_face",
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_atencao"
+        ],
+        "adaptacao": [
+          "adp_tom_feedback",
+          "adp_dificuldade"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Expressões faciais captadas por câmera",
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Atenção ou desatenção sustentada",
+          "Ajuste de tom ou feedback afetivo e motivacional",
+          "Ajuste de dificuldade ou seleção de conteúdo"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 375
+      }
+    },
+    {
+      "id": "leichert2025virtual_item0001",
+      "source_ref": "@leichert2025virtual",
+      "data": {
+        "sintese": "Estudo de viabilidade do agente virtual Flobi (RoboCamp), que detecta desatenção pelo olhar e redireciona a atenção com feedback verbal, com adultos com DI em oficina protegida.",
+        "desfecho_afetivo": "Tempo atento permaneceu alto para a maioria, mas o estudo de uma semana foi curto para mostrar melhora de atenção; limite de duas tentativas introduzido para reduzir frustração.",
+        "modalidade": [
+          "mod_olhar",
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_atencao"
+        ],
+        "adaptacao": [
+          "adp_tom_feedback"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Direção do olhar ou rastreamento ocular, incluindo pupilometria",
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Atenção ou desatenção sustentada",
+          "Ajuste de tom ou feedback afetivo e motivacional"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 394
+      }
+    },
+    {
+      "id": "piferi2025integrating_item0001",
+      "source_ref": "@piferi2025integrating",
+      "data": {
+        "sintese": "Framework ChatCare: chatbot GPT-4o com avatar que detecta emoção em texto e voz e eventos de interação (erros, inatividade) para ajustar tom e mensagens proativas em atividades terapêutico-educativas para crianças com dislexia.",
+        "desfecho_afetivo": "não avaliado.",
+        "modalidade": [
+          "mod_texto",
+          "mod_voz",
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_emocoes_basicas",
+          "est_inatividade"
+        ],
+        "adaptacao": [
+          "adp_tom_feedback",
+          "adp_ritmo"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Texto digitado ou escrito pelo estudante",
+          "Fala e prosódia (tom, ritmo, intensidade da voz)",
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Emoções básicas (alegria, tristeza, raiva etc.)",
+          "Inatividade ou ausência de resposta",
+          "Ajuste de tom ou feedback afetivo e motivacional",
+          "Ajuste de ritmo, velocidade ou pausas"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 413
+      }
+    },
+    {
+      "id": "woolf2010effect_item0001",
+      "source_ref": "@woolf2010effect",
+      "data": {
+        "sintese": "Avaliação randomizada de companheiros de aprendizagem afetivos em um STI de matemática, mostrando redução de frustração e ansiedade em alunos de baixo desempenho e com dificuldades de aprendizagem.",
+        "desfecho_afetivo": "Após interagir com os agentes afetivos, estudantes de baixo desempenho (incluindo com dificuldades de aprendizagem) reduziram frustração e ansiedade.",
+        "modalidade": [
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_frustracao",
+          "est_ansiedade",
+          "est_confianca",
+          "est_interesse"
+        ],
+        "adaptacao": [
+          "adp_tom_feedback",
+          "adp_regulacao_emocional"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Estado",
+          "Estado",
+          "Estado",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Frustração",
+          "Ansiedade ou estresse",
+          "Confiança percebida",
+          "Interesse",
+          "Ajuste de tom ou feedback afetivo e motivacional",
+          "Estratégias explícitas de regulação emocional"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 432
+      }
+    },
+    {
+      "id": "rupasinghe2026interactive_item0001",
+      "source_ref": "@rupasinghe2026interactive",
+      "data": {
+        "sintese": "Sistema gamificado de aprendizagem de língua de sinais para crianças surdas que combina reconhecimento de emoção facial e intensidade de gestos para estimar engajamento, com painel de progresso para os pais.",
+        "desfecho_afetivo": "Reporta acurácia de validação de 96,9% para o modelo facial e maior robustez na detecção de engajamento; desfechos afetivos em usuários não avaliados.",
+        "modalidade": [
+          "mod_face",
+          "mod_postura_gestos"
+        ],
+        "estado": [
+          "est_emocoes_basicas",
+          "est_engajamento"
+        ],
+        "adaptacao": [
+          "adp_apenas_deteccao"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Modalidade",
+          "Estado",
+          "Estado",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Expressões faciais captadas por câmera",
+          "Postura corporal, movimentos de cabeça e gestos",
+          "Emoções básicas (alegria, tristeza, raiva etc.)",
+          "Engajamento com a tarefa ou com o agente",
+          "O agente apenas detecta o estado, sem adaptar a interação"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 451
+      }
+    },
+    {
+      "id": "navneet2026orchestrating_item0001",
+      "source_ref": "@navneet2026orchestrating",
+      "data": {
+        "sintese": "AttentionGuard infere quatro estados de atenção inspirados na fenomenologia do TDAH a partir de sinais comportamentais e aplica cinco padrões de adaptação de interface, incluindo andaime bidirecional para sub e superestimulação.",
+        "desfecho_afetivo": "Condição adaptativa reduziu a carga cognitiva (NASA-TLX 47,2 vs 62,8; d=1,21; p=0,008) e aumentou a compreensão (78,4% vs 61,2%; p=0,009).",
+        "modalidade": [
+          "mod_interacao_logs"
+        ],
+        "estado": [
+          "est_atencao",
+          "est_carga_cognitiva"
+        ],
+        "adaptacao": [
+          "adp_formato",
+          "adp_ritmo"
+        ],
+        "faceta": [
+          "Modalidade",
+          "Estado",
+          "Estado",
+          "Adaptacao",
+          "Adaptacao"
+        ],
+        "descricao": [
+          "Métricas de interação: desempenho, tempos de resposta, cliques, logs",
+          "Atenção ou desatenção sustentada",
+          "Carga cognitiva ou sobrecarga",
+          "Mudança de formato ou modalidade de apresentação do conteúdo",
+          "Ajuste de ritmo, velocidade ou pausas"
+        ]
+      },
+      "traceability": {
+        "file": "extracao/estudos.syn",
+        "line": 470
+      }
+    }
+  ]
+}

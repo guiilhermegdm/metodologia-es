@@ -1,0 +1,77 @@
+# =================================================================
+# Template de SELEÇÃO de estudos (identificação, deduplicação e triagem)
+# Mapeamento sistemático — Agentes Multimodais para Educação Inclusiva
+# Cada SOURCE é um registro retornado pelas strings de busca ou vindo de
+# outras fontes; cada ITEM registra a decisão de seleção sobre ele.
+# =================================================================
+
+SOURCE FIELDS
+    REQUIRED base
+    OPTIONAL duplicata_de
+END SOURCE FIELDS
+
+FIELD base TYPE ENUMERATED
+    SCOPE SOURCE
+    DESCRIPTION Fonte de onde o registro foi obtido
+    VALUES
+        ieee_xplore: IEEE Xplore (string aplicada em All Metadata, 2010-2026)
+        acm_dl: ACM Digital Library (string aplicada em Abstract, 2010-2026)
+        outras_fontes: Busca acadêmica restrita aos domínios das bibliotecas digitais e snowballing
+    END VALUES
+END FIELD
+
+FIELD duplicata_de TYPE TEXT
+    SCOPE SOURCE
+    DESCRIPTION Chave BibTeX do registro mantido quando este é duplicata (mesmo DOI ou título)
+END FIELD
+
+ITEM FIELDS
+    REQUIRED etapa, decisao, criterio
+    OPTIONAL justificativa
+END ITEM FIELDS
+
+FIELD etapa TYPE ORDERED
+    SCOPE ITEM
+    DESCRIPTION Etapa do processo de seleção em que a decisão foi tomada
+    VALUES
+        [1] identificacao: Registro coletado, ainda não triado
+        [2] deduplicacao: Remoção de duplicatas por DOI ou título
+        [3] triagem_titulo_resumo: Aplicação dos critérios sobre título e resumo
+        [4] elegibilidade: Aplicação dos critérios sobre resumo e texto completo
+    END VALUES
+END FIELD
+
+FIELD decisao TYPE ENUMERATED
+    SCOPE ITEM
+    DESCRIPTION Resultado da etapa de seleção
+    VALUES
+        pendente: Ainda não avaliado
+        duplicata: Removido por ser duplicata de outro registro
+        incluido: Atende a CI1, CI2 e CI3
+        excluido: Atende a pelo menos um critério de exclusão
+    END VALUES
+    GUIDELINES
+        Use pendente para registros ainda não triados.
+        Use incluido somente quando CI1, CI2 e CI3 forem atendidos simultaneamente.
+        Use excluido indicando no campo criterio o primeiro critério de exclusão verificado.
+    END GUIDELINES
+END FIELD
+
+FIELD criterio TYPE ENUMERATED
+    SCOPE ITEM
+    DESCRIPTION Critério que fundamenta a decisão
+    VALUES
+        nao_aplicado: Nenhum critério aplicado ainda (registro pendente)
+        DUP: Duplicata (mesmo DOI ou título de registro já mantido)
+        CI: Atende CI1 (agente para estudantes neurodivergentes ou com deficiência sensorial), CI2 (inferência automática de estado afetivo, atencional ou cognitivo) e CI3 (contexto educacional)
+        CE1: Ausência de inferência automática de estado
+        CE2: Não há agente ou não há dados do estudante
+        CE3: População, contexto ou desenho fora do escopo
+        CE4: Texto ou metadados não verificáveis, estudo secundário
+    END VALUES
+END FIELD
+
+FIELD justificativa TYPE MEMO
+    SCOPE ITEM
+    DESCRIPTION Justificativa curta da decisão
+END FIELD

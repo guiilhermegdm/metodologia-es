@@ -1,0 +1,4323 @@
+# Gerado automaticamente por scripts/gerar_projetos.py — não editar à mão.
+# Para registrar decisões, edite estudos-primarios-coletados/triagem-bases.csv e rode o script de novo.
+
+SOURCE @ieee7344544
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7344544
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10086039
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10086039
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11336761
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11336761
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11548206
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11548206
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9071837
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9071837
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9889537
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9889537
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11726314
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11726314
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9656763
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9656763
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11601044
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11601044
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11621816
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11621816
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11398196
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11398196
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11600232
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11600232
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8682943
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8682943
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6406351
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6406351
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11031067
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11031067
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8525799
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8525799
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9630888
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9630888
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9493357
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9493357
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10851032
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10851032
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10734440
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10734440
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11581800
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11581800
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11434057
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11434057
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8596571
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8596571
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9988169
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9988169
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7504695
+    base: ieee_xplore
+    duplicata_de: bekele2016masi
+END SOURCE
+
+ITEM @ieee7504695
+    etapa: 2
+    decisao: duplicata
+    criterio: DUP
+    justificativa: Mesmo DOI/título de bekele2016masi
+END ITEM
+
+SOURCE @ieee11077514
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11077514
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11246217
+    base: ieee_xplore
+    duplicata_de: li2025towards
+END SOURCE
+
+ITEM @ieee11246217
+    etapa: 2
+    decisao: duplicata
+    criterio: DUP
+    justificativa: Mesmo DOI/título de li2025towards
+END ITEM
+
+SOURCE @ieee9889577
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9889577
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10115150
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10115150
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9306942
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9306942
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11537237
+    base: ieee_xplore
+    duplicata_de: rupasinghe2026interactive
+END SOURCE
+
+ITEM @ieee11537237
+    etapa: 2
+    decisao: duplicata
+    criterio: DUP
+    justificativa: Mesmo DOI/título de rupasinghe2026interactive
+END ITEM
+
+SOURCE @ieee10050050
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10050050
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8713916
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8713916
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8525598
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8525598
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6250779
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6250779
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7992881
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7992881
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10112868
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10112868
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11714528
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11714528
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10034613
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10034613
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9766762
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9766762
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9900704
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9900704
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10374719
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10374719
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee5509327
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee5509327
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7745194
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7745194
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7418926
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7418926
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6628544
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6628544
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9476326
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9476326
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11068012
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11068012
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11503680
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11503680
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6406352
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6406352
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6406398
+    base: ieee_xplore
+    duplicata_de: ieee6406352
+END SOURCE
+
+ITEM @ieee6406398
+    etapa: 2
+    decisao: duplicata
+    criterio: DUP
+    justificativa: Mesmo DOI/título de ieee6406352
+END ITEM
+
+SOURCE @ieee11747073
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11747073
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10974236
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10974236
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8307127
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8307127
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6982997
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6982997
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10391214
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10391214
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11217854
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11217854
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6680520
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6680520
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10737356
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10737356
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9522544
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9522544
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11486256
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11486256
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9515410
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9515410
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee5598683
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee5598683
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11071325
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11071325
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6549893
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6549893
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8956377
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8956377
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11715007
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11715007
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11341630
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11341630
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6943710
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6943710
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10731162
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10731162
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10831850
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10831850
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6990987
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6990987
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9223534
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9223534
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10791277
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10791277
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10000269
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10000269
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9925485
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9925485
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10959247
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10959247
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10327992
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10327992
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8956257
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8956257
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6983012
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6983012
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee5565459
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee5565459
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10845174
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10845174
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10616482
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10616482
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9800014
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9800014
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7392409
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7392409
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9972470
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9972470
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10970359
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10970359
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11564989
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11564989
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11249090
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11249090
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9896590
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9896590
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8172372
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8172372
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9896506
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9896506
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9333508
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9333508
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11653355
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11653355
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6288916
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6288916
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11518527
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11518527
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6851182
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6851182
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10198928
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10198928
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11281826
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11281826
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10731457
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10731457
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6011990
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6011990
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11449765
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11449765
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11430821
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11430821
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11197386
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11197386
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11580336
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11580336
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11631483
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11631483
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8525743
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8525743
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7931903
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7931903
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9864668
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9864668
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6145259
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6145259
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11337200
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11337200
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11506738
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11506738
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11448242
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11448242
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6926354
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6926354
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10115454
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10115454
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9569193
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9569193
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9694056
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9694056
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10731459
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10731459
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10853866
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10853866
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee5635909
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee5635909
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7939296
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7939296
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7824242
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7824242
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10639571
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10639571
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10401722
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10401722
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7497791
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7497791
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9204807
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9204807
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9343836
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9343836
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9909528
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9909528
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11355194
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11355194
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7329754
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7329754
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6091316
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6091316
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11714539
+    base: ieee_xplore
+    duplicata_de: leichert2025virtual
+END SOURCE
+
+ITEM @ieee11714539
+    etapa: 2
+    decisao: duplicata
+    criterio: DUP
+    justificativa: Mesmo DOI/título de leichert2025virtual
+END ITEM
+
+SOURCE @ieee11714545
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11714545
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8613668
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8613668
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6644675
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6644675
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7333589
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7333589
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11584680
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11584680
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9515439
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9515439
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9223539
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9223539
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11504290
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11504290
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6784461
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6784461
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9369633
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9369633
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9794499
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9794499
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11015842
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11015842
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10340298
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10340298
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11280424
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11280424
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10974866
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10974866
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11247752
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11247752
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6212525
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6212525
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9451685
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9451685
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8525825
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8525825
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8207589
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8207589
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11336240
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11336240
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11600990
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11600990
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9900584
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9900584
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7782508
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7782508
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11173182
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11173182
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6926374
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6926374
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7889480
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7889480
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7049662
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7049662
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11217905
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11217905
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8522016
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8522016
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6290697
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6290697
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11052900
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11052900
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10178789
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10178789
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9815063
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9815063
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee5670255
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee5670255
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11383824
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11383824
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9280194
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9280194
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10742750
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10742750
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11198971
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11198971
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8172410
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8172410
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11315206
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11315206
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10605509
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10605509
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10769797
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10769797
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10882714
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10882714
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11710119
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11710119
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11270034
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11270034
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6091119
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6091119
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10121412
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10121412
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11052358
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11052358
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10731429
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10731429
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10388083
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10388083
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10597489
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10597489
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10417698
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10417698
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6710619
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6710619
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6165464
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6165464
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7359526
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7359526
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10754769
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10754769
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11628389
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11628389
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10880519
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10880519
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7745217
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7745217
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11546906
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11546906
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11343327
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11343327
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11089260
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11089260
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11499808
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11499808
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9845125
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9845125
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10937482
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10937482
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8361026
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8361026
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6638349
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6638349
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8443030
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8443030
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10894391
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10894391
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11268671
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11268671
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7832420
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7832420
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6331347
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6331347
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8968443
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8968443
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee5686346
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee5686346
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6926280
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6926280
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8711229
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8711229
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11677380
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11677380
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10911388
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10911388
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9988747
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9988747
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10834580
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10834580
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10868058
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10868058
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10645560
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10645560
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9324880
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9324880
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8172386
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8172386
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11188251
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11188251
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10715148
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10715148
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11652714
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11652714
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11506722
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11506722
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9802014
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9802014
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6733744
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6733744
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10388187
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10388187
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11144502
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11144502
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11559263
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11559263
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8633661
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8633661
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8204153
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8204153
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10309509
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10309509
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7939288
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7939288
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8952038
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8952038
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7985895
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7985895
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11621049
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11621049
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6934157
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6934157
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6127405
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6127405
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9422789
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9422789
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7751760
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7751760
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11127369
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11127369
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11078158
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11078158
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11374481
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11374481
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10629607
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10629607
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11631466
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11631466
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11294129
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11294129
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11030997
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11030997
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9991423
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9991423
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10625439
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10625439
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11194839
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11194839
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7406425
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7406425
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8943654
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8943654
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10961202
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10961202
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11254179
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11254179
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7399489
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7399489
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10217349
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10217349
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11168428
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11168428
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9357065
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9357065
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11748696
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11748696
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10680820
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10680820
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10971607
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10971607
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11053104
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11053104
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6926232
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6926232
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11369559
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11369559
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10911190
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10911190
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11363988
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11363988
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11491581
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11491581
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8951419
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8951419
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11252698
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11252698
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6776396
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6776396
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10987433
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10987433
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11452545
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11452545
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11198667
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11198667
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11527518
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11527518
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11702054
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11702054
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10560378
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10560378
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7219735
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7219735
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8487909
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8487909
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9459689
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9459689
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10819729
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10819729
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9695330
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9695330
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11029593
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11029593
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9997901
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9997901
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8728058
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8728058
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10256656
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10256656
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9777125
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9777125
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11714715
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11714715
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9180213
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9180213
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9187606
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9187606
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10086026
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10086026
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11710376
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11710376
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8977500
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8977500
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10626697
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10626697
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7806199
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7806199
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11649322
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11649322
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11648853
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11648853
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11390808
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11390808
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9108687
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9108687
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8373907
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8373907
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11383340
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11383340
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11168420
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11168420
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10912431
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10912431
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11086169
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11086169
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11581733
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11581733
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10775598
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10775598
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11141375
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11141375
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11527560
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11527560
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6807640
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6807640
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10720479
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10720479
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11040860
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11040860
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11631625
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11631625
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9046802
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9046802
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8621308
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8621308
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10907569
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10907569
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11155778
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11155778
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10309473
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10309473
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11537040
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11537040
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8280067
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8280067
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10971279
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10971279
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9202474
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9202474
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7561162
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7561162
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10503285
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10503285
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10508848
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10508848
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11714943
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11714943
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9416790
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9416790
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11749847
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11749847
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11425859
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11425859
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10458360
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10458360
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10750782
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10750782
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11537023
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11537023
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10969187
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10969187
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11233939
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11233939
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11349044
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11349044
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10670085
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10670085
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10010853
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10010853
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10095804
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10095804
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8431232
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8431232
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6899265
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6899265
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8924844
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8924844
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11449965
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11449965
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8961710
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8961710
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10645563
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10645563
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11334260
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11334260
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10246076
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10246076
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11741885
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11741885
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8646165
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8646165
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8849999
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8849999
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6936899
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6936899
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8302582
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8302582
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6232430
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6232430
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10496621
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10496621
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9938174
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9938174
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10390690
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10390690
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8869174
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8869174
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9215392
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9215392
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11328833
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11328833
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11012365
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11012365
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10670708
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10670708
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10714563
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10714563
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee8929591
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee8929591
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10932475
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10932475
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11385397
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11385397
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10661075
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10661075
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee11538795
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee11538795
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7379553
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7379553
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee9540099
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee9540099
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6242804
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6242804
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee10404580
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee10404580
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee6880952
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee6880952
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @ieee7016271
+    base: ieee_xplore
+END SOURCE
+
+ITEM @ieee7016271
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3850153
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3850153
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3756884_3768403
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3756884_3768403
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3772363_3799141
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3772363_3799141
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3772363_3798986
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3772363_3798986
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3716553_3757092
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3716553_3757092
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3776734_3794367
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3776734_3794367
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3715669_3727351
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3715669_3727351
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3776574_3840556
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3776574_3840556
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_2596695_2596699
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_2596695_2596699
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3371382_3378390
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3371382_3378390
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3371382_3378254
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3371382_3378254
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3029798_3038390
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3029798_3038390
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3313950_3313968
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3313950_3313968
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3340555_3353742
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3340555_3353742
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3563659
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3563659
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @acm_3477322
+    base: acm_dl
+END SOURCE
+
+ITEM @acm_3477322
+    etapa: 1
+    decisao: pendente
+    criterio: nao_aplicado
+END ITEM
+
+SOURCE @rudovic2018personalized
+    base: outras_fontes
+END SOURCE
+
+ITEM @rudovic2018personalized
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @jain2020modeling
+    base: outras_fontes
+END SOURCE
+
+ITEM @jain2020modeling
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @javed2020toward
+    base: outras_fontes
+END SOURCE
+
+ITEM @javed2020toward
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @esteban2017build
+    base: outras_fontes
+END SOURCE
+
+ITEM @esteban2017build
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @bekele2013step
+    base: outras_fontes
+END SOURCE
+
+ITEM @bekele2013step
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @lahiri2011design
+    base: outras_fontes
+END SOURCE
+
+ITEM @lahiri2011design
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @lahiri2013design
+    base: outras_fontes
+END SOURCE
+
+ITEM @lahiri2013design
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @lahiri2015physiologically
+    base: outras_fontes
+END SOURCE
+
+ITEM @lahiri2015physiologically
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @bian2015physiology
+    base: outras_fontes
+END SOURCE
+
+ITEM @bian2015physiology
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @bian2019design
+    base: outras_fontes
+END SOURCE
+
+ITEM @bian2019design
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @zhang2015multimodal
+    base: outras_fontes
+END SOURCE
+
+ITEM @zhang2015multimodal
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @kuriakose2017design
+    base: outras_fontes
+END SOURCE
+
+ITEM @kuriakose2017design
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @standen2020evaluation
+    base: outras_fontes
+END SOURCE
+
+ITEM @standen2020evaluation
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @boulton2018multi
+    base: outras_fontes
+END SOURCE
+
+ITEM @boulton2018multi
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @lim2012brain
+    base: outras_fontes
+END SOURCE
+
+ITEM @lim2012brain
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @lim2019randomized
+    base: outras_fontes
+END SOURCE
+
+ITEM @lim2019randomized
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @huang2023effective
+    base: outras_fontes
+END SOURCE
+
+ITEM @huang2023effective
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @johnstone2017game
+    base: outras_fontes
+END SOURCE
+
+ITEM @johnstone2017game
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @schiavo2021attention
+    base: outras_fontes
+END SOURCE
+
+ITEM @schiavo2021attention
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @richter2024vaco
+    base: outras_fontes
+END SOURCE
+
+ITEM @richter2024vaco
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @leichert2025virtual
+    base: outras_fontes
+END SOURCE
+
+ITEM @leichert2025virtual
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @piferi2025integrating
+    base: outras_fontes
+END SOURCE
+
+ITEM @piferi2025integrating
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @woolf2010effect
+    base: outras_fontes
+END SOURCE
+
+ITEM @woolf2010effect
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @rupasinghe2026interactive
+    base: outras_fontes
+END SOURCE
+
+ITEM @rupasinghe2026interactive
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @navneet2026orchestrating
+    base: outras_fontes
+END SOURCE
+
+ITEM @navneet2026orchestrating
+    etapa: 4
+    decisao: incluido
+    criterio: CI
+END ITEM
+
+SOURCE @clabaugh2019longterm
+    base: outras_fontes
+END SOURCE
+
+ITEM @clabaugh2019longterm
+    etapa: 4
+    decisao: excluido
+    criterio: CE1
+    justificativa: Adaptação apenas por desempenho; sem inferência de estado afetivo
+END ITEM
+
+SOURCE @tang2025exploring
+    base: outras_fontes
+END SOURCE
+
+ITEM @tang2025exploring
+    etapa: 4
+    decisao: excluido
+    criterio: CE1
+    justificativa: Agente LLM adapta formato, mas não infere estado afetivo/atencional
+END ITEM
+
+SOURCE @cheng2024llm
+    base: outras_fontes
+END SOURCE
+
+ITEM @cheng2024llm
+    etapa: 4
+    decisao: excluido
+    criterio: CE1
+    justificativa: Tutores LLM com personas; sem inferência automática de afeto
+END ITEM
+
+SOURCE @deng2024asdchat
+    base: outras_fontes
+END SOURCE
+
+ITEM @deng2024asdchat
+    etapa: 4
+    decisao: excluido
+    criterio: CE1
+    justificativa: Intervenção dialógica com LLM; sinais afetivos usados só para avaliação
+END ITEM
+
+SOURCE @li2025towards
+    base: outras_fontes
+END SOURCE
+
+ITEM @li2025towards
+    etapa: 4
+    decisao: excluido
+    criterio: CE1
+    justificativa: Estado de estresse codificado por humanos, não pelo agente
+END ITEM
+
+SOURCE @ferrara2026synapse
+    base: outras_fontes
+END SOURCE
+
+ITEM @ferrara2026synapse
+    etapa: 4
+    decisao: excluido
+    criterio: CE1
+    justificativa: Não descreve mecanismo de detecção afetiva
+END ITEM
+
+SOURCE @tang2025socialwise
+    base: outras_fontes
+END SOURCE
+
+ITEM @tang2025socialwise
+    etapa: 4
+    decisao: excluido
+    criterio: CE1
+    justificativa: Simulador de conversação sem detecção afetiva automática
+END ITEM
+
+SOURCE @chen2025inclusive
+    base: outras_fontes
+END SOURCE
+
+ITEM @chen2025inclusive
+    etapa: 4
+    decisao: excluido
+    criterio: CE2
+    justificativa: Tecnologia de reconhecimento de emoções para surdos sem agente adaptativo
+END ITEM
+
+SOURCE @standen2021teachers
+    base: outras_fontes
+END SOURCE
+
+ITEM @standen2021teachers
+    etapa: 4
+    decisao: excluido
+    criterio: CE2
+    justificativa: Estudo de percepção docente, sem dados de estudantes
+END ITEM
+
+SOURCE @uluer2023experience
+    base: outras_fontes
+END SOURCE
+
+ITEM @uluer2023experience
+    etapa: 4
+    decisao: excluido
+    criterio: CE3
+    justificativa: Contexto clínico (audiometria), não educacional
+END ITEM
+
+SOURCE @bekele2016masi
+    base: outras_fontes
+END SOURCE
+
+ITEM @bekele2016masi
+    etapa: 4
+    decisao: excluido
+    criterio: CE4
+    justificativa: Metadados não verificados na triagem (registro localizado depois no IEEE Xplore)
+END ITEM
+
+SOURCE @javed_thri_sensorial
+    base: outras_fontes
+END SOURCE
+
+ITEM @javed_thri_sensorial
+    etapa: 4
+    decisao: excluido
+    criterio: CE1
+    justificativa: Javed et al. (THRI) — estudo sensorial com robô sem sensoriamento afetivo automático
+END ITEM
+
+SOURCE @audemy_tutor_cegos
+    base: outras_fontes
+END SOURCE
+
+ITEM @audemy_tutor_cegos
+    etapa: 4
+    decisao: excluido
+    criterio: CE1
+    justificativa: Audemy — tutor para estudantes cegos sem detecção afetiva
+END ITEM
+
+SOURCE @emoassist_cegos
+    base: outras_fontes
+END SOURCE
+
+ITEM @emoassist_cegos
+    etapa: 4
+    decisao: excluido
+    criterio: CE3
+    justificativa: EmoAssist — assistente afetivo para cegos fora do contexto educacional
+END ITEM
+
+SOURCE @ismail2021_triagem
+    base: outras_fontes
+END SOURCE
+
+ITEM @ismail2021_triagem
+    etapa: 4
+    decisao: excluido
+    criterio: CE3
+    justificativa: Ismail et al. (2021) — população/desenho fora do escopo
+END ITEM
+
+SOURCE @stasolla2025_triagem
+    base: outras_fontes
+END SOURCE
+
+ITEM @stasolla2025_triagem
+    etapa: 4
+    decisao: excluido
+    criterio: CE3
+    justificativa: Stasolla et al. (2025) — população/desenho fora do escopo
+END ITEM
+
+SOURCE @tsiakas2018_triagem
+    base: outras_fontes
+END SOURCE
+
+ITEM @tsiakas2018_triagem
+    etapa: 4
+    decisao: excluido
+    criterio: CE3
+    justificativa: Tsiakas et al. (2018) — população/desenho fora do escopo
+END ITEM
+
+SOURCE @frutospascual2015_triagem
+    base: outras_fontes
+END SOURCE
+
+ITEM @frutospascual2015_triagem
+    etapa: 4
+    decisao: excluido
+    criterio: CE3
+    justificativa: Frutos-Pascual et al. (2015) — população/desenho fora do escopo
+END ITEM
+
+SOURCE @singh2025_triagem
+    base: outras_fontes
+END SOURCE
+
+ITEM @singh2025_triagem
+    etapa: 4
+    decisao: excluido
+    criterio: CE3
+    justificativa: Singh et al. (2025) — população/desenho fora do escopo
+END ITEM
+
+SOURCE @leichert2024_icsr_triagem
+    base: outras_fontes
+END SOURCE
+
+ITEM @leichert2024_icsr_triagem
+    etapa: 4
+    decisao: excluido
+    criterio: CE4
+    justificativa: Leichert et al. (2024, ICSR) — resumo/texto não acessível na triagem
+END ITEM
+
+SOURCE @fan_tbme_triagem
+    base: outras_fontes
+END SOURCE
+
+ITEM @fan_tbme_triagem
+    etapa: 4
+    decisao: excluido
+    criterio: CE4
+    justificativa: Fan et al. (IEEE TBME) — metadados não verificados na triagem
+END ITEM

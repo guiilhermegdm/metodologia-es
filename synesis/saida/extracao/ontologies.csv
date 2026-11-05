@@ -1,0 +1,27 @@
+modalidade,estado,adaptacao,faceta,descricao,source_file,source_line,source_column
+mod_texto,mod_texto,mod_texto,Modalidade,Texto digitado ou escrito pelo estudante,extracao/ontologia.syno,3,1
+mod_voz,mod_voz,mod_voz,Modalidade,"Fala e prosódia (tom, ritmo, intensidade da voz)",extracao/ontologia.syno,8,1
+mod_face,mod_face,mod_face,Modalidade,Expressões faciais captadas por câmera,extracao/ontologia.syno,13,1
+mod_olhar,mod_olhar,mod_olhar,Modalidade,"Direção do olhar ou rastreamento ocular, incluindo pupilometria",extracao/ontologia.syno,18,1
+mod_fisiologico,mod_fisiologico,mod_fisiologico,Modalidade,"Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)",extracao/ontologia.syno,23,1
+mod_postura_gestos,mod_postura_gestos,mod_postura_gestos,Modalidade,"Postura corporal, movimentos de cabeça e gestos",extracao/ontologia.syno,28,1
+mod_interacao_logs,mod_interacao_logs,mod_interacao_logs,Modalidade,"Métricas de interação: desempenho, tempos de resposta, cliques, logs",extracao/ontologia.syno,33,1
+est_engajamento,est_engajamento,est_engajamento,Estado,Engajamento com a tarefa ou com o agente,extracao/ontologia.syno,38,1
+est_atencao,est_atencao,est_atencao,Estado,Atenção ou desatenção sustentada,extracao/ontologia.syno,43,1
+est_frustracao,est_frustracao,est_frustracao,Estado,Frustração,extracao/ontologia.syno,48,1
+est_tedio,est_tedio,est_tedio,Estado,Tédio,extracao/ontologia.syno,53,1
+est_ansiedade,est_ansiedade,est_ansiedade,Estado,Ansiedade ou estresse,extracao/ontologia.syno,58,1
+est_carga_cognitiva,est_carga_cognitiva,est_carga_cognitiva,Estado,Carga cognitiva ou sobrecarga,extracao/ontologia.syno,63,1
+est_confusao,est_confusao,est_confusao,Estado,Confusão,extracao/ontologia.syno,68,1
+est_emocoes_basicas,est_emocoes_basicas,est_emocoes_basicas,Estado,"Emoções básicas (alegria, tristeza, raiva etc.)",extracao/ontologia.syno,73,1
+est_valencia_ativacao,est_valencia_ativacao,est_valencia_ativacao,Estado,Dimensões de valência e ativação (arousal),extracao/ontologia.syno,78,1
+est_prazer,est_prazer,est_prazer,Estado,Prazer ou divertimento,extracao/ontologia.syno,83,1
+est_inatividade,est_inatividade,est_inatividade,Estado,Inatividade ou ausência de resposta,extracao/ontologia.syno,88,1
+est_confianca,est_confianca,est_confianca,Estado,Confiança percebida,extracao/ontologia.syno,93,1
+est_interesse,est_interesse,est_interesse,Estado,Interesse,extracao/ontologia.syno,98,1
+adp_ritmo,adp_ritmo,adp_ritmo,Adaptacao,"Ajuste de ritmo, velocidade ou pausas",extracao/ontologia.syno,103,1
+adp_formato,adp_formato,adp_formato,Adaptacao,Mudança de formato ou modalidade de apresentação do conteúdo,extracao/ontologia.syno,108,1
+adp_tom_feedback,adp_tom_feedback,adp_tom_feedback,Adaptacao,Ajuste de tom ou feedback afetivo e motivacional,extracao/ontologia.syno,113,1
+adp_dificuldade,adp_dificuldade,adp_dificuldade,Adaptacao,Ajuste de dificuldade ou seleção de conteúdo,extracao/ontologia.syno,118,1
+adp_regulacao_emocional,adp_regulacao_emocional,adp_regulacao_emocional,Adaptacao,Estratégias explícitas de regulação emocional,extracao/ontologia.syno,123,1
+adp_apenas_deteccao,adp_apenas_deteccao,adp_apenas_deteccao,Adaptacao,"O agente apenas detecta o estado, sem adaptar a interação",extracao/ontologia.syno,128,1

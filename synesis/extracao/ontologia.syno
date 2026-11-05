@@ -1,0 +1,131 @@
+# Ontologia (vocabulário controlado) das facetas de múltiplos valores
+
+ONTOLOGY mod_texto
+    faceta: Modalidade
+    descricao: Texto digitado ou escrito pelo estudante
+END ONTOLOGY
+
+ONTOLOGY mod_voz
+    faceta: Modalidade
+    descricao: Fala e prosódia (tom, ritmo, intensidade da voz)
+END ONTOLOGY
+
+ONTOLOGY mod_face
+    faceta: Modalidade
+    descricao: Expressões faciais captadas por câmera
+END ONTOLOGY
+
+ONTOLOGY mod_olhar
+    faceta: Modalidade
+    descricao: Direção do olhar ou rastreamento ocular, incluindo pupilometria
+END ONTOLOGY
+
+ONTOLOGY mod_fisiologico
+    faceta: Modalidade
+    descricao: Sinais fisiológicos (EDA, frequência cardíaca, EEG, temperatura)
+END ONTOLOGY
+
+ONTOLOGY mod_postura_gestos
+    faceta: Modalidade
+    descricao: Postura corporal, movimentos de cabeça e gestos
+END ONTOLOGY
+
+ONTOLOGY mod_interacao_logs
+    faceta: Modalidade
+    descricao: Métricas de interação: desempenho, tempos de resposta, cliques, logs
+END ONTOLOGY
+
+ONTOLOGY est_engajamento
+    faceta: Estado
+    descricao: Engajamento com a tarefa ou com o agente
+END ONTOLOGY
+
+ONTOLOGY est_atencao
+    faceta: Estado
+    descricao: Atenção ou desatenção sustentada
+END ONTOLOGY
+
+ONTOLOGY est_frustracao
+    faceta: Estado
+    descricao: Frustração
+END ONTOLOGY
+
+ONTOLOGY est_tedio
+    faceta: Estado
+    descricao: Tédio
+END ONTOLOGY
+
+ONTOLOGY est_ansiedade
+    faceta: Estado
+    descricao: Ansiedade ou estresse
+END ONTOLOGY
+
+ONTOLOGY est_carga_cognitiva
+    faceta: Estado
+    descricao: Carga cognitiva ou sobrecarga
+END ONTOLOGY
+
+ONTOLOGY est_confusao
+    faceta: Estado
+    descricao: Confusão
+END ONTOLOGY
+
+ONTOLOGY est_emocoes_basicas
+    faceta: Estado
+    descricao: Emoções básicas (alegria, tristeza, raiva etc.)
+END ONTOLOGY
+
+ONTOLOGY est_valencia_ativacao
+    faceta: Estado
+    descricao: Dimensões de valência e ativação (arousal)
+END ONTOLOGY
+
+ONTOLOGY est_prazer
+    faceta: Estado
+    descricao: Prazer ou divertimento
+END ONTOLOGY
+
+ONTOLOGY est_inatividade
+    faceta: Estado
+    descricao: Inatividade ou ausência de resposta
+END ONTOLOGY
+
+ONTOLOGY est_confianca
+    faceta: Estado
+    descricao: Confiança percebida
+END ONTOLOGY
+
+ONTOLOGY est_interesse
+    faceta: Estado
+    descricao: Interesse
+END ONTOLOGY
+
+ONTOLOGY adp_ritmo
+    faceta: Adaptacao
+    descricao: Ajuste de ritmo, velocidade ou pausas
+END ONTOLOGY
+
+ONTOLOGY adp_formato
+    faceta: Adaptacao
+    descricao: Mudança de formato ou modalidade de apresentação do conteúdo
+END ONTOLOGY
+
+ONTOLOGY adp_tom_feedback
+    faceta: Adaptacao
+    descricao: Ajuste de tom ou feedback afetivo e motivacional
+END ONTOLOGY
+
+ONTOLOGY adp_dificuldade
+    faceta: Adaptacao
+    descricao: Ajuste de dificuldade ou seleção de conteúdo
+END ONTOLOGY
+
+ONTOLOGY adp_regulacao_emocional
+    faceta: Adaptacao
+    descricao: Estratégias explícitas de regulação emocional
+END ONTOLOGY
+
+ONTOLOGY adp_apenas_deteccao
+    faceta: Adaptacao
+    descricao: O agente apenas detecta o estado, sem adaptar a interação
+END ONTOLOGY

@@ -1,0 +1,10 @@
+PROJECT extracao_mapeamento_agentes_multimodais
+    TEMPLATE "extracao.synt"
+    INCLUDE BIBLIOGRAPHY "bib/estudos-incluidos.bib"
+    INCLUDE ANNOTATIONS "estudos.syn"
+    INCLUDE ONTOLOGY "ontologia.syno"
+    METADATA
+        version: 1.0
+        dataset: Estudos primários incluídos (S01-S25)
+    END METADATA
+END PROJECT
