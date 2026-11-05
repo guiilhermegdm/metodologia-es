@@ -51,6 +51,24 @@ O script `gerar_projetos.py` executa automaticamente estas etapas:
 
 Valores digitados errado (por exemplo, `CE5` ou `incluído` com acento) fazem a compilação falhar e indicam o arquivo e a linha do erro. Os incluídos na triagem devem então ser classificados em `../dados/extracao-estudos-incluidos.csv` para entrar no projeto de extração.
 
+## Concordância entre revisores
+
+O script `scripts/concordancia.py` apoia a dupla revisão descrita na Seção 5.1 do protocolo. Ele não precisa de dependências externas.
+
+```bash
+# 1. Sorteia registros já decididos para um segundo revisor avaliar às cegas
+python scripts/concordancia.py amostra --origem ../estudos-primarios-coletados/selecao-estudos.csv \
+    --tamanho 10 --saida ../estudos-primarios-coletados/revisor-b.csv
+
+# 2. O segundo revisor preenche a coluna "decisao" (incluido/excluido) de revisor-b.csv
+
+# 3. Calcula o kappa de Cohen e lista as divergências a resolver por consenso
+python scripts/concordancia.py kappa --revisor-a ../estudos-primarios-coletados/selecao-estudos.csv \
+    --revisor-b ../estudos-primarios-coletados/revisor-b.csv
+```
+
+O sorteio usa uma semente fixa (`--semente`, padrão 2026), então qualquer pessoa reproduz a mesma amostra. Decisões com ou sem acento são aceitas. Registros pendentes e duplicatas são ignorados.
+
 ## Saídas (`saida/`)
 
 | Arquivo | Conteúdo |
@@ -78,7 +96,8 @@ synesis/
 │   └── bib/                ← estudos-incluidos.bib (gerado)
 ├── scripts/
 │   ├── gerar_projetos.py   ← automação: deduplicação, geração e compilação
-│   └── relatorio.py        ← relatório do mapeamento a partir das saídas do Synesis
+│   ├── relatorio.py        ← relatório do mapeamento a partir das saídas do Synesis
+│   └── concordancia.py     ← amostra para segundo revisor e kappa de Cohen
 ├── requirements.txt        ← dependências (synesis, openpyxl)
 └── saida/                  ← artefatos compilados
 ```
